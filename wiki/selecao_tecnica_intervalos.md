@@ -1,0 +1,1 @@
+usar problema de categorizar criança, adolescente, adulto, idoso

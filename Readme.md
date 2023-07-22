@@ -8,17 +8,18 @@
     - [ ] Exemplos de códigos e linguagens
     - [ ] Linguagens de marcação vs linguagens de programação
   - Aula 02: Configuração do ambiente:
-    - [ ] [Instalação do C++ (Mingw)](aula_02/install.md)
-    - [ ] [IDE: Visual Studio Code (vscode)](aula_02/vscode.md)
-    - [ ] [IDE: Replit](aula_02/replit.md)
-- Aula 03: Primeiro código
-  - [x] [Primeiro código](aula_03/hello.md)
-  - [x] [Compilando e Executando](aula_03/compilando.md)
-  - [x] [Segundo código](aula_03/segundo.md)
-- Aula 04: Entendendo melhor os tipos
-  - [ ] [Tipos de dados e casts](aula_04/tipos.md)
-  - [x] [Variáveis](aula_04/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
-  - [ ] [Operações aritméticas +, -, *, /](aula_04/operacoes.md)
+    - [ ] [Instalação do C++ (Mingw)](aula/02/install.md)
+    - [ ] [IDE: Visual Studio Code (vscode)](aula/02/vscode.md)
+    - [ ] [IDE: Replit](aula/02/replit.md)
+- Semana 02
+  - Aula 03: Primeiro código
+    - [x] [Primeiro código](aula/03/hello.md)
+    - [x] [Compilando e Executando](aula/03/compilando.md)
+    - [x] [Segundo código](aula/03/segundo.md)
+  - Aula 04: Entendendo melhor os tipos
+    - [ ] [Tipos de dados e casts](aula/04/tipos.md)
+    - [x] [Variáveis](aula/04/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
+    - [ ] [Operações aritméticas +, -, *, /](aula/04/operacoes.md)
 - Aula 05: Operações Básicas
   - math.h (pow, sqrt)
   - Problema da divisão de dois inteiros
@@ -28,7 +29,7 @@
   - Operadores unários ++, --
   - estrutura do if e elses
   - técnica da seleção intervalada
-  - [Debugando o primeiro código](02/debugando.md)
+  - [Debugando o primeiro código](aula/02/debugando.md)
   - Guia de escrita
   - Impressão formatada de zeros extras e casas decimais
 - Semana 04: Técnicas de seleção

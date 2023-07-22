@@ -1,7 +1,7 @@
 # Tipos
 
-## Tipos básicos
+casts
 
-## Casts e perda de dados
+auto
 
-## Dedução de tipos usando auto
+const, unsigned, long

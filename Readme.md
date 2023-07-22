@@ -2,7 +2,9 @@
 
 ## Plano de 12 semanas
 - Aula 01: O que são linguagens de programação?
+  - O que são algoritmos
   - Exemplos de códigos e linguagens
+  - Linguagens de marcação vs linguagens de programação
 - Aula 02: Configuração do ambiente:
     - [Instalação do C++ (Mingw)](01/install.md)
     - [IDE: Visual Studio Code (vscode)](01/vscode.md)

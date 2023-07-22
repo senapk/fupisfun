@@ -1,24 +1,25 @@
 # FUP is FUN
 
-## Plano de 12 semanas
+## Plano de 30 aulas
+
 - Aula 01: O que são linguagens de programação?
-  - O que são algoritmos
-  - Exemplos de códigos e linguagens
-  - Linguagens de marcação vs linguagens de programação
+  - [ ] O que são algoritmos?
+  - [ ] Exemplos de códigos e linguagens
+  - [ ] Linguagens de marcação vs linguagens de programação
 - Aula 02: Configuração do ambiente:
-    - [Instalação do C++ (Mingw)](01/install.md)
-    - [IDE: Visual Studio Code (vscode)](01/vscode.md)
-    - [IDE: Replit](01/replit.md)
-- Semana 01: Introdução à programação em C++:
-    - [Primeiro código](01/primeiro.md)
-    - [Compilando e Executando](01/compilando.md)
-    - [Tipos de dados](01/tipos.md)
-      - bool, int, float, double, char, string
-      - casts compatíveis e perda de dados
-    - [Dedução de tipos usando auto](01/auto.md)
-    - [Modificadores: const, long e unsigned](01/variants.md)
-- Semana 02: Operações Básicas
-  - [Variáveis](02/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
+  - [ ] [Instalação do C++ (Mingw)](aula_02/install.md)
+  - [ ] [IDE: Visual Studio Code (vscode)](aula_02/vscode.md)
+  - [ ] [IDE: Replit](aula_02/replit.md)
+- Aula 03: Primeiro código
+  - [x] [Primeiro código](aula_03/Readme.md#hello-world)
+  - [x] [Compilando e Executando](aula_03/Readme.md#compilando-manualmente)
+  - [x] [Segundo código](aula_03/Readme.md#segundo-código) Explicação dos componentes
+- Aula 04: Entendendo melhor os tipos
+  - [ ] [Tipos de dados e casts](aula_04/tipos.md)
+  - [Dedução de tipos usando auto](aula_04/tipos.md#dedução-de-tipos-usando-auto)
+  - [Modificadores: const, long e unsigned](01/variants.md)
+- Aula 05: Operações Básicas
+  - [Variáveis](aula_04/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
   - [Operações aritméticas +, -, *, /](02/operacoes.md)
   - math.h (pow, sqrt)
   - Problema da divisão de dois inteiros

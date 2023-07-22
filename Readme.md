@@ -19,7 +19,7 @@
 - Bloco 02: Regras do C++
   - Aula 04: Entendendo melhor os tipos
     - [ ] [Tipos de dados e casts](wiki/tipos.md)
-    - [x] [Variáveis](wiki/boas_práticas_variáveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
+    - [x] [Variáveis](wiki/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
     - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
     - [ ] [Não tenha medo de erros](wiki/erros_variaveis.md)
 - Aula 05: Operações Básicas

@@ -13,7 +13,8 @@ int main()
     std::cout << "Qual a sua altura? ";
     std::cin >> altura;
     
-    char primeira_letra {'a'}; // Declara uma variável caractere (char) chamada primeira_letra e inicializa seu valor com 'a'.
+    char primeira_letra {'a'}; // Declara uma variável caractere (char) chamada primeira_letra e inicializa seu valor com 'a'. Um char é um único caractere e deve ser escrito entre aspas simples.
+    
     std::cout << "Qual a primeira letra do seu nome? ";
     std::cin >> primeira_letra;
 

@@ -2,24 +2,26 @@
 
 ## Plano de 30 aulas
 
-- Semana 01
+- Bloco 01: Introdução
   - Aula 01: O que são linguagens de programação?
     - [ ] O que são algoritmos?
     - [ ] Exemplos de códigos e linguagens
     - [ ] Linguagens de marcação vs linguagens de programação
   - Aula 02: Configuração do ambiente:
-    - [ ] [Instalação do C++ (Mingw)](aula/02/install.md)
-    - [ ] [IDE: Visual Studio Code (vscode)](aula/02/vscode.md)
-    - [ ] [IDE: Replit](aula/02/replit.md)
-- Semana 02
+    - [ ] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
+    - [ ] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
+    - [ ] [IDE: Visual Studio Code (vscode)](wiki/configure_vscode.md)
+    - [ ] [IDE: Replit](wiki/configure_replit.md)
   - Aula 03: Primeiro código
-    - [x] [Primeiro código](aula/03/hello.md)
-    - [x] [Compilando e Executando](aula/03/compilando.md)
-    - [x] [Segundo código](aula/03/segundo.md)
+    - [x] [Primeiro código](wiki/primeiro_codigo.md)
+    - [x] [Compilando e Executando](wiki/compilando.md)
+    - [x] [Segundo código](wiki/segundo_codigo.md)
+- Bloco 02: Regras do C++
   - Aula 04: Entendendo melhor os tipos
-    - [ ] [Tipos de dados e casts](aula/04/tipos.md)
-    - [x] [Variáveis](aula/04/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
-    - [ ] [Operações aritméticas +, -, *, /](aula/04/operacoes.md)
+    - [ ] [Tipos de dados e casts](wiki/tipos.md)
+    - [x] [Variáveis](wiki/boas_práticas_variáveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
+    - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
+    - [ ] [Não tenha medo de erros](wiki/erros_variaveis.md)
 - Aula 05: Operações Básicas
   - math.h (pow, sqrt)
   - Problema da divisão de dois inteiros
@@ -27,11 +29,11 @@
 - Semana 03: Seleção Básica
   - Atribuição com substituição +=, -=
   - Operadores unários ++, --
-  - estrutura do if e elses
-  - técnica da seleção intervalada
-  - [Debugando o primeiro código](aula/02/debugando.md)
-  - Guia de escrita
-  - Impressão formatada de zeros extras e casas decimais
+  - [ ] [Estruturas de seleção](wiki/estruturas_de_selecao.md)
+  - [ ] [técnica da seleção intervalada](wiki/tecnica_selecao_intervalada.md)
+  - [ ] [Debugando o primeiro código](wiki/debugando.md)
+  - [ ] [Guia de escrita](wiki/guia_de_estilo.md)
+  - [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
 - Semana 04: Técnicas de seleção
   - técnicas de if e else
     - Operadores lógicos &&, ||, ==, ()
@@ -62,12 +64,12 @@
 - Semana 09
   - cópia e referência
   - for range, for auto&
-  - introdução aos iteradores e sintaxe de iteradores 
+  - introdução aos iteradores e sintaxe de iteradores
 - Semana 10
   - structs construtores com {}
   - vetores de structs
 - Semana 11
-  - tipos de passagem de parâmetros: 
+  - tipos de passagem de parâmetros
     - cópias, referências e referências constantes
   - ponteiros
   - sobrecarga de funções
@@ -77,7 +79,10 @@
   
 - dá pra navegar pelos links do markdown pelo editor integrado, primeiro dá o preview, no preview você consegue navegar. Tem um botão open preview
 - no vscode tem duas opções secretas, elas atualizam os links se você renomear os arquivos ou os títulos. Dá um `control ,` e ediciona essas duas coisas.
-    "markdown.validate.enabled": true,
-    "markdown.updateLinksOnFileMove.enabled": "always",
+
+```txt
+"markdown.validate.enabled": true,
+"markdown.updateLinksOnFileMove.enabled": "always",
+```
 
 Quando você tiver um link pra algum arquivo usando markdown, ou pra algum título de algum arquivo usando markdown, se você alterar o arquivo ou o título usando f2, o vscode vai procurar e alterar todas as referencias também.

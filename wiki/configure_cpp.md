@@ -1,0 +1,3 @@
+- mingw com suporte ao c++17, de preferencia o mesmo que dá suporte ao sfml
+- como instalar no linux (debian-based) e arch (based) 
+- instalar o g++ e o gdb

@@ -143,7 +143,7 @@ int main() {
     int minuto {5};
     auto w2 = std::setw(2);         //guarda o comando de formatação em w2
 
-    std::cout << std::setfill('0');
+    std::cout << std::setfill('0')
               << "A hora é " << w2 << hora << ":" << w2 << minuto << "\n";
                 //A hora é 04:05
 }

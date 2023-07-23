@@ -7,11 +7,11 @@
 ### Bloco 01 - Introdução
 
 - Aula 01: O que são linguagens de programação?
-  - [ ] O que são algoritmos?
-  - [ ] Exemplos de códigos e linguagens
+  - [x] O que são algoritmos?
+  - [x] Exemplos de códigos e linguagens
   - [ ] Linguagens de marcação vs linguagens de programação
 - Aula 02: Configuração do ambiente:
-  - [ ] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
+  - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
   - [ ] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
   - [ ] [IDE: Visual Studio Code (vscode)](wiki/configure_vscode.md)
   - [ ] [IDE: Replit](wiki/configure_replit.md)

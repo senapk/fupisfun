@@ -7,8 +7,8 @@
 ### Bloco 01 - Introdução
 
 - Aula 01: O que são linguagens de programação?
-  - [x] O que são algoritmos?
-  - [x] Exemplos de códigos e linguagens
+  - [x] [O que são algoritmos?](wiki/o_que_sao_algoritmos.md)
+  - [x] [Exemplos de códigos e linguagens](wiki/exemplos_de_codigos_e_linguagens.md)
   - [ ] Linguagens de marcação vs linguagens de programação
 - Aula 02: Configuração do ambiente:
   - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor

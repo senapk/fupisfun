@@ -21,7 +21,7 @@
   - [x] [Segundo código](wiki/segundo_codigo.md)
 - Aula 04: Entendendo melhor os tipos
   - [ ] [Tipos de dados e casts](wiki/tipos.md)
-  - [x] [Variáveis](wiki/variaveis.md): Criando, Boas práticas, Erros comuns, Não utilizando
+  - [x] [Variáveis](wiki/variaveis.md): Boas práticas
   - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
   - [ ] [Não tenha medo de erros](wiki/erros_variaveis.md)
   - [ ] [Guia de escrita](wiki/guia_de_estilo.md)
@@ -70,6 +70,9 @@
   - geração de números aleatórios com Mersenne Twister
   - argc e argv
 - Aula 14
+  - string, métodos de string, replace
+  - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
+  - split, join
   - stringstream e retornando textos
 
 ### Bloco 05 - Listas

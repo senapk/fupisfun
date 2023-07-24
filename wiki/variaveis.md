@@ -4,10 +4,11 @@
 
 Em C++, variáveis são espaços de memória que podem armazenar valores de diferentes tipos, como inteiros, números de ponto flutuante, caracteres, entre outros. As variáveis são essenciais para armazenar informações e manipulá-las durante a execução de um programa.
 
-Para criar uma variável em C++, você precisa especificar o tipo da variável seguido pelo seu nome. A sintaxe geral é a seguinte:
+Para criar uma variável em C++, você precisa especificar o tipo da variável seguido pelo seu nome. Duas opções de sintaxe são possíveis:
 
 ```cpp
-tipo_da_variavel nome_da_variavel = valor_inicial;
+tipo_da_variável nome_da_variável = valor_inicial;
+tipo_da_variável nome_da_variável {valor_inicial};
 ```
 
 Por exemplo, para criar uma variável inteira chamada "idade" e uma variável ponto flutuante chamada "altura", você faria:

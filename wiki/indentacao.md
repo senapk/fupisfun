@@ -45,3 +45,11 @@ int main() {
     }
 }
 ```
+
+## PIADINHA
+
+Se você já jogou D&D, provavelmente já ouviu falar de alinhamentos. Alguém pegou os vários estilos de indentação e fez uma brincadeira com os alinhamentos. 
+
+![alinhamentos](https://pbs.twimg.com/media/Fm8AIOzXEBY8NQZ?format=jpg&name=small)
+
+Sugerimos apenas os alinhamentos `Lawful Good` (Ordeiro e Bom) e `Chaotic Good` (Caótico e Bom).

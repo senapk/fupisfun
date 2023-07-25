@@ -9,7 +9,6 @@
 - Aula 01: O que são linguagens de programação?
   - [x] [O que são algoritmos?](wiki/o_que_sao_algoritmos.md)
   - [x] [Exemplos de códigos e linguagens](wiki/exemplos_de_codigos_e_linguagens.md)
-  - [ ] Linguagens de marcação vs linguagens de programação
 - Aula 02: Configuração do ambiente:
   - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
   - [ ] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
@@ -23,7 +22,7 @@
   - [ ] [Tipos de dados e casts](wiki/tipos.md)
   - [x] [Variáveis](wiki/variaveis.md): Boas práticas
   - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
-  - [ ] [Não tenha medo de erros](wiki/erros_variaveis.md)
+  - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)
   - [ ] [Guia de escrita](wiki/guia_de_estilo.md)
 - Aula 05: Operações Básicas
   - [ ] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
@@ -38,10 +37,10 @@
   - [ ] [Estruturas de seleção](wiki/selecao_if_else.md)
   - [ ] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
 - Aula 07: Debugando
-  - [ ] [Debugando o primeiro código](wiki/debugando.md)
   - [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
+  - [ ] [Debugando o primeiro código](wiki/debugando.md)
 - Aula 08: Técnicas de seleção I
-  - [ ] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
+  - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
   - [ ] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 - Aula 09: Técnicas de seleção II
   - [ ] [switch case](wiki/seleção_switch_case.md)

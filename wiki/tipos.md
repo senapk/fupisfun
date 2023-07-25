@@ -1,7 +1,10 @@
 # Tipos
 
 casts
+    int - char
+    double, float -> int
+    int -> double, float
 
-auto
+como o auto
 
 const, unsigned, long

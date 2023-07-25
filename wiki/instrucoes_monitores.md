@@ -49,3 +49,19 @@ Para executar, vá no seu Window Manager (xfce, gnome, kde, openbox, mate, etc) 
 ```bash
 gnome-terminal --tab -- bash -c "~/bin/run_from_clipboard.sh"
 ```
+
+## Git steps
+
+```bash
+git clone `no link do ssh`
+
+acessar a página do projeto
+    reservar os ítens que tem interesse
+    marcar como todo
+quando começar a escrever, marcar como `em progress`
+quando terminar de escrever, marcar como `review`
+fazer o commit
+git pull (com rebase)
+se tiver conflito, você consertar
+fazer o push
+```

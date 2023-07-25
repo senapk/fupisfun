@@ -1,5 +1,12 @@
 # Compilando manualmente
 
+<!-- toc -->
+- [Compilando e executando](#compilando-e-executando)
+- [Explicando as flags](#explicando-as-flags)
+<!-- toc -->
+
+## Compilando e executando
+
 Para compilar, você precisa ter o g++ instalado. Crie e salve o arquivo como arquivo.cpp. Navegue até a pasta onde você salvou o arquivo. Ao dar o comando `ls` dentro da pasta, você deve encontrar o arquivo que salvou. Após isso compile e execute com os comandos. Abra o `terminal` com o `bash` e digite:
 
 **No windows:**

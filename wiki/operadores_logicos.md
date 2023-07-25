@@ -1,13 +1,12 @@
 # Operadores lógicos
 
-[](toc)
-
+<!-- toc -->
 - [Operador lógico AND (&&)](#operador-lógico-and-)
 - [Operador lógico OR (||)](#operador-lógico-or-)
 - [Operador lógico NOT (!)](#operador-lógico-not-)
 - [Uso dos parênteses](#uso-dos-parênteses)
 - [Comparação dois a dois](#comparação-dois-a-dois)
-[](toc)
+<!-- toc -->
 
 Em C++, os operadores lógicos são utilizados para realizar operações de lógica booleana em expressões condicionais. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!). Esses operadores permitem combinar condições para criar expressões mais complexas.
 

@@ -1,11 +1,12 @@
 # Impressão formatada
 
-- [Impressão formatada](#impress%C3%A3o-formatada)
-  - [Casas decimais](#casas-decimais)
-  - [Para que serve fixed](#para-que-serve-fixed)
-  - [Alinhamentos (Padding)](#alinhamentos-padding)
-  - [Preencher com zeros à esquerda](#preencher-com-zeros-%C3%A0-esquerda)
-  - [Atalhos](#atalhos)
+<!-- toc -->
+- [Casas decimais](#casas-decimais)
+- [Para que serve fixed](#para-que-serve-fixed)
+- [Alinhamentos (Padding)](#alinhamentos-padding)
+- [Preencher com zeros à esquerda](#preencher-com-zeros-à-esquerda)
+- [Atalhos](#atalhos)
+<!-- toc -->
 
 Para formatar a saída no C++ usando `cout`, você pode utilizar a biblioteca `<iomanip>`, que fornece manipuladores de fluxo para controlar a formatação de saída. Aqui estão algumas das principais regras para formatar a saída com certo número de casas decimais ou inserir zeros antes do número:
 

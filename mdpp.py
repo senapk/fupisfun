@@ -70,12 +70,12 @@ class TocMaker:
 class Toc:
     @staticmethod
     def execute(content: str, action: Action = Action.RUN) -> str:
-        regex = r"\[\]\(toc\)\n" + r"(.*?)"+ r"\[\]\(toc\)"
+        regex = r"<!-- toc -->\n" + r"(.*?)"+ r"<!-- toc -->"
         if action == Action.RUN:
             new_toc = TocMaker.execute(content)
-            subst = r"[](toc)\n\n" + new_toc + r"\n[](toc)"
+            subst = r"<!-- toc -->\n" + new_toc + r"\n<!-- toc -->"
         else:
-            subst = r"[](toc)\n[](toc)"
+            subst = r"<!-- toc -->\n<!-- toc -->"
         return re.sub(regex, subst, content, 0, re.MULTILINE | re.DOTALL)
 
 

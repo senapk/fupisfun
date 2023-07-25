@@ -1,10 +1,9 @@
 # Indentação
 
-[](toc)
-
+<!-- toc -->
 - [Como indentar](#como-indentar)
-- [PIADINHA](#piadinha)
-[](toc)
+- [Tipos de indentação que existem](#tipos-de-indentação-que-existem)
+<!-- toc -->
 
 ## Como indentar
 
@@ -54,9 +53,9 @@ int main() {
 }
 ```
 
-## PIADINHA
+## Tipos de indentação que existem
 
-Se você já jogou D&D, provavelmente já ouviu falar de alinhamentos. Alguém pegou os vários estilos de indentação e fez uma brincadeira com os alinhamentos. 
+Se você já jogou D&D, provavelmente já ouviu falar de alinhamentos. Alguém pegou os vários estilos de indentação e fez uma brincadeira com os alinhamentos.
 
 ![alinhamentos](https://pbs.twimg.com/media/Fm8AIOzXEBY8NQZ?format=jpg&name=small)
 

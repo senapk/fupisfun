@@ -28,17 +28,20 @@ bool eh_primo(int value) {
 }
 
 int main() {
-    int maximo {};
     std::cout << "Digite o valor maximo: ";
+    
+    int maximo {};
     std::cin >> maximo;
 
     std::cout << "Os numeros primos ate " << maximo << std::endl;
     for (int i = 0; i <= maximo; i++) {
+        std::cout << i;
         if (eh_primo(i)) {
-            std::cout << i << " sim" << std::endl;
+            std::cout << " sim";
         } else {
-            std::cout << i << " nao" << std::endl;
+            std::cout << " nao";
         }
+        std::cout << std::endl;
     }
 }
 ```

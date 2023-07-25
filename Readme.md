@@ -24,7 +24,7 @@
   - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
   - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)
   - [x] [Guia de estilo de escrita](wiki/guia_de_estilo.md)
-  - [ ] [Aprenda a indentar](wiki/indentacao.md)
+  - [x] [Aprenda a indentar](wiki/indentacao.md)
 - Aula 05: Operações Básicas
   - [ ] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
   - [ ] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)

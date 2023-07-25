@@ -1,5 +1,13 @@
 # Indentação
 
+[](toc)
+
+- [Como indentar](#como-indentar)
+- [PIADINHA](#piadinha)
+[](toc)
+
+## Como indentar
+
 A indentação é uma forma de alinhar o código para facilitar a leitura e compreensão. Ele serve para indicar em que escopo aquela linha está, ou seja, de qual bloco lógico ela faz parte.
 
 Cada vez que um novo escopo é iniciado, seja uma função, um if, um for, um while, um switch, etc, o código deve aumentar um nível de indentação. Cada vez que um escopo é fechado, o código deve diminuir um nível de indentação.

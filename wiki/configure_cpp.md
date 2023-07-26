@@ -12,7 +12,7 @@
         - Note que o arquivo é um ***.7z***, portanto, você precisará de um descompactador de arquivos como o ***[RAR](https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-622br.exe)***
         - *A versão escolhida é compatível com a última versão do SFML, que será instalada no futuro.*
 
-    - Extraia o Arquivo ***"mingw64"*** para o diretório C:
+    - Extraia o Arquivo ***"mingw64"*** para o diretório `C:`
 
     - Após, digite na pesquisa do Windows **"ambiente"** e, em seguida, clique em **"Editar as variáveis de ambiente do sistema"**
         - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/aea4b4ab-17d9-412e-8bbf-3b99988c9e79)

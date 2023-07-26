@@ -1,6 +1,6 @@
 ## Introdução aos Tipos de Dados em C++
 
-Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem, bem como aprender sobre os casts, a inferência de tipo, modificadores de tipo e o conceito de variáveis imutáveis.
+Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
 
 ## Tipos de Dados Fundamentais
 

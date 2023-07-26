@@ -19,7 +19,9 @@
   - [x] [Compilando e Executando](wiki/compilando.md)
   - [x] [Segundo código](wiki/segundo_codigo.md)
 - Aula 04: Entendendo melhor os tipos
-  - [ ] [Tipos de dados e casts](wiki/tipos.md)
+  - [ ] [Tipos de dados](wiki/tipos.md)
+  - [ ] [Modificadores de tipo](wiki/modificadores.md)
+  - [ ] [Conversão entre tipos (casting)](wiki/casting.md)
   - [x] [Variáveis](wiki/variaveis.md): Boas práticas
   - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
   - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)

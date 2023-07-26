@@ -24,8 +24,8 @@
     g++ --version
     ```
     - Deve aparecer isto:
-    ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/39097e38-5be4-4a16-a087-0b32c7137995)
-    E pronto, seu compilador para Windows está instalado e configurado.
+        - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/39097e38-5be4-4a16-a087-0b32c7137995)
+    - E pronto, seu compilador para Windows está instalado e configurado.
 
 ## Arch-Based Linux 
 - Instalando o GDB (GCC, G++ e GDB)

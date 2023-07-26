@@ -1,5 +1,11 @@
 # O que são algoritmos?
 
+- [Definição](#definição)
+- [Características dos algoritmos](#características-dos-algoritmos)
+- [Exemplo de algoritmo](#exemplo-de-algoritmo)
+
+## Definição
+
 Um algoritmo é uma sequência de passos bem definidos que descrevem o passo a passo de como resolver um problema ou realizar uma tarefa. Embora sejam muito trabalhados na computação, já estamos acostumados com algoritmos no cotidiano, como por exemplo, ao preparar uma receita.
 
 Na computação usamos algoritmos como uma forma de instruir o computador quais ações ele deve realizar para executar uma tarefa.

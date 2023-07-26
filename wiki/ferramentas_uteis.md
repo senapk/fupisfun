@@ -1,5 +1,10 @@
 # Ferramentas úteis
 
+- [Explorador de arquivos](#explorador-de-arquivos)
+- [Terminal](#terminal)
+- [Editor de texto](#editor-de-texto)
+- [Usando dispositivos móveis](#usando-dispositivos-móveis)
+
 Quando se trata de programação algumas ferramentas são indispensáveis para um bom desenvolvimento. Entre essas ferramentas estão o **Explorador de Arquivos (File Manager)**, o **Terminal** e um **Editor de Texto (Text Editor)**.
 
 ## Explorador de arquivos
@@ -12,7 +17,7 @@ No ambiente da computação é muito comum o uso de ferramentas que não possuem
 
 Tanto o Windows, Linux e MacOS já possuem terminais instalados.
 
-## Editor de Texto
+## Editor de texto
 
 Como já falado, todos os seus programas são simplesmente arquivos de texto. Dessa forma, um software para edição desses arquivos é essencial para o desenvolvimento.
 

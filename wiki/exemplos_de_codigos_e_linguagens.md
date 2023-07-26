@@ -1,5 +1,8 @@
 # Exemplos de códigos de linguagens
 
+- [O que são linguagens de programação](#o-que-são-linguagens-de-programação)
+- [Exemplos de linguagens de programação](#exemplos-de-linguagens-de-programação)
+
 ## O que são linguagens de programação
 
 Uma **linguagem de programação** é um conjunto estruturado de regras, símbolos e palavras-chave que nos permite instruir um computador a executar tarefas específicas.

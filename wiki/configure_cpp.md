@@ -45,13 +45,11 @@
 - **Instalando o GDB e o G++**
 
 ```bash
-sudo pacman -Syu
+# atualize seu sistema
+sudo pacman -Syyu
 
-#gdb
+#instalação das ferramentas de compilação e do gdb
 sudo pacman -S base-devel gdb
-
-#g++
-sudo pacman -S g++
 ```
 
 - **Testando a Instalação:**

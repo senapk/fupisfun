@@ -1,8 +1,10 @@
 # O que são algoritmos?
 
+<!-- toc -->
 - [Definição](#definição)
 - [Características dos algoritmos](#características-dos-algoritmos)
 - [Exemplo de algoritmo](#exemplo-de-algoritmo)
+<!-- toc -->
 
 ## Definição
 

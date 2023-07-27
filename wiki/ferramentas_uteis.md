@@ -4,6 +4,8 @@
 - [Explorador de arquivos (File Manager)](#explorador-de-arquivos-file-manager)
 - [Terminal](#terminal)
 - [Editor de texto](#editor-de-texto)
+- [Compilador](#compilador)
+- [IDEs](#ides)
 - [Usando dispositivos móveis](#usando-dispositivos-móveis)
 <!-- toc -->
 

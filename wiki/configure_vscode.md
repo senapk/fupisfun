@@ -2,7 +2,19 @@
 
 <!-- toc -->
 - [Como Instalar](#como-instalar)
-- [Utilizando](#utilizando-o-vscode)
+  - [Windows](#windows)
+  - [Debian-Based Linux](#debian-based-linux)
+  - [Arch-Based Linux](#arch-based-linux)
+- [Utilizando o VSCode](#utilizando-o-vscode)
+  - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
+  - [Explorer](#explorer)
+  - [Usando o Editor de Texto](#usando-o-editor-de-texto)
+- [Extensões no VSCode](#extensões-no-vscode)
+  - [Instalando Extensões](#instalando-extensões)
+  - [Debuggando](#debuggando)
+    - [Configurando o Debug](#configurando-o-debug)
+    - [Iniciando o Debug](#iniciando-o-debug)
+    - [Usando o Debug](#usando-o-debug)
 <!-- toc -->
 
 O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvolvida pela Microsoft. É uma ferramenta gratuita e de código aberto, que pode ser utilizada para desenvolver em **diversas linguagens de programação**, incluindo **C++**.
@@ -10,9 +22,20 @@ O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvo
 ## Como Instalar
 
 <!-- toc -->
-- [Windows](#windows)
-- [Debian-Based Linux](#debian-based-linux)
-- [Arch-Based Linux](#arch-based-linux)
+- [Como Instalar](#como-instalar)
+  - [Windows](#windows)
+  - [Debian-Based Linux](#debian-based-linux)
+  - [Arch-Based Linux](#arch-based-linux)
+- [Utilizando o VSCode](#utilizando-o-vscode)
+  - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
+  - [Explorer](#explorer)
+  - [Usando o Editor de Texto](#usando-o-editor-de-texto)
+- [Extensões no VSCode](#extensões-no-vscode)
+  - [Instalando Extensões](#instalando-extensões)
+  - [Debuggando](#debuggando)
+    - [Configurando o Debug](#configurando-o-debug)
+    - [Iniciando o Debug](#iniciando-o-debug)
+    - [Usando o Debug](#usando-o-debug)
 <!-- toc -->
 
 ### Windows
@@ -53,11 +76,20 @@ O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvo
 ## Utilizando o VSCode
 
 <!-- toc -->
-- [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
-- [Usando o Explorer](#explorer)
-- [Usando o Editor de Texto](#usando-o-editor-de-texto)
-- [Instalando Extensões](#instalando-extensões)
-- [Debuggando](#debuggando)
+- [Como Instalar](#como-instalar)
+  - [Windows](#windows)
+  - [Debian-Based Linux](#debian-based-linux)
+  - [Arch-Based Linux](#arch-based-linux)
+- [Utilizando o VSCode](#utilizando-o-vscode)
+  - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
+  - [Explorer](#explorer)
+  - [Usando o Editor de Texto](#usando-o-editor-de-texto)
+- [Extensões no VSCode](#extensões-no-vscode)
+  - [Instalando Extensões](#instalando-extensões)
+  - [Debuggando](#debuggando)
+    - [Configurando o Debug](#configurando-o-debug)
+    - [Iniciando o Debug](#iniciando-o-debug)
+    - [Usando o Debug](#usando-o-debug)
 <!-- toc -->
 
 ### Abrindo o Terminal Integrado
@@ -108,9 +140,20 @@ Para instalar uma extensão, clique no ícone de **extensões** na barra lateral
 ### Debuggando
 
 <!-- toc -->
-- [Configurando o Debug](#configurando-o-debug)
-- [Iniciando o Debug](#iniciando-o-debug)
-- [Usando o Debug](#usando-o-debug)
+- [Como Instalar](#como-instalar)
+  - [Windows](#windows)
+  - [Debian-Based Linux](#debian-based-linux)
+  - [Arch-Based Linux](#arch-based-linux)
+- [Utilizando o VSCode](#utilizando-o-vscode)
+  - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
+  - [Explorer](#explorer)
+  - [Usando o Editor de Texto](#usando-o-editor-de-texto)
+- [Extensões no VSCode](#extensões-no-vscode)
+  - [Instalando Extensões](#instalando-extensões)
+  - [Debuggando](#debuggando)
+    - [Configurando o Debug](#configurando-o-debug)
+    - [Iniciando o Debug](#iniciando-o-debug)
+    - [Usando o Debug](#usando-o-debug)
 <!-- toc -->
 
 A ferramenta de debug do VSCode é muito útil para encontrar erros no seu código, utilizando breakpoints e outras ferramentas.

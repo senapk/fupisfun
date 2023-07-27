@@ -20,7 +20,7 @@
   - [x] [Compilando e Executando](wiki/compilando.md)
   - [x] [Segundo código](wiki/segundo_codigo.md)
 - Aula 04: Entendendo melhor os tipos
-  - [ ] [Tipos de dados](wiki/tipos.md)
+  - [x] [Tipos de dados primitivos](wiki/tipos_primitivos.md)
   - [ ] [Modificadores de tipo](wiki/modificadores.md)
   - [ ] [Conversão entre tipos (casting)](wiki/casting.md)
   - [x] [Variáveis](wiki/variaveis.md): Boas práticas

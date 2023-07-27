@@ -1,21 +1,23 @@
 # Introdução aos Tipos de Dados em C++
 
-Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
-
 <!-- toc -->
-- [Tipos de Dados Fundamentais](#tipos-de-dados-fundamentais)
+- [Tipos de Dados Fundamentais (ou Primitivos)](#tipos-de-dados-fundamentais-ou-primitivos)
 - [Tipos Integrais](#tipos-integrais)
   - [`int`](#int)
   - [`char`](#char)
 - [Tipos de Ponto Flutuante](#tipos-de-ponto-flutuante)
   - [`float`](#float)
   - [`double`](#double)
+  - [Curiosidade](#curiosidade)
 - [Tipo Booleano](#tipo-booleano)
   - [`bool`](#bool)
-- [Uso do `auto` para Inferir Tipo](#uso-do-auto-para-inferir-tipo)
+- [Uso do `auto` para inferir Tipo](#uso-do-auto-para-inferir-tipo)
 <!-- toc -->
 
-## Tipos de Dados Fundamentais
+Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
+
+## Tipos de Dados Fundamentais (ou Primitivos)
+
 
 Os tipos de dados fundamentais em C++ podem ser agrupados em três categorias principais:
 
@@ -60,8 +62,8 @@ char letra = 'a';
 
 Exemplo de declaração e atribuição de uma variável do tipo float:
 
-```c++
-float altura = 1.75;
+```cpp
+float altura = 1.75f; //o f depois do número indica que é um float
 ```
 
 ### `double`
@@ -72,9 +74,35 @@ float altura = 1.75;
 
 Exemplo de declaração e atribuição de uma variável do tipo double:
 
-```c++
-float pi = 3.14159265359;
+```cpp
+double pi = 3.14159265359;
 ```
+
+Double é o valor padrão de ponto flutuante e na dúvida, use sempre double.
+
+### Curiosidade
+
+Só por curiosidade, o código abaixo mostra como o número 0.1 é representado em memória usando `float` e `double`.
+
+```cpp
+#include <iostream>
+#include <iomanip>
+
+int main (){
+    std::cout << std::fixed;
+    std::cout << "float : " << std::setprecision(20) << (float) 0.1 << '\n';
+    std::cout << "double: " << std::setprecision(20) << (double) 0.1 << '\n';
+}
+```
+
+O resultado é:
+
+```txt
+float : 0.10000000149011611938
+double: 0.10000000000000000555
+```
+
+Dá pra ver como é a aproximação do número 0.1 em cada tipo de dado e como o tipo `double` é mais preciso.
 
 ## Tipo Booleano
 
@@ -90,7 +118,7 @@ Exemplo de declaração e atribuição de uma variável do tipo bool:
 bool eh_par = true;
 ```
 
-## Uso do `auto` para Inferir Tipo
+## Uso do `auto` para inferir tipo
 
 O C++11 introduziu o uso da palavra-chave `auto` para permitir a inferência de tipo de variáveis em tempo de compilação. Quando usamos `auto` ao declarar uma variável, o compilador automaticamente infere o tipo com base no valor atribuído à variável. Isso torna a declaração de variáveis mais concisa e legível.
 
@@ -99,4 +127,7 @@ Exemplo:
 ```c++
 auto idade = 25; // O tipo da variável idade será inferido como int.
 auto altura = 1.75; // O tipo da variável altura será inferido como double.
+auto largura = 1.8f; // O tipo da variável largura será inferido como float.
+auto eh_par = true; // O tipo da variável eh_par será inferido como bool.
+auto letra = 'a'; // O tipo da variável letra será inferido como char.
 ```

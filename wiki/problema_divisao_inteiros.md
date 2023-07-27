@@ -52,7 +52,7 @@ Apenas a substituição do 2 por 2.0 já resolve o nosso problema.
 
 A solução anterior funciona quando usamos números literais, mas não quando lidamos com variáveis, pois não temos como adicionar um ponto decimal após o nome delas.
 
-Dessa forma, precisamos realizar um cast como visto em [Tipos de dados e casts](../wiki/tipos.md). O nosso primeiro exemplo ficaria assim:
+Dessa forma, precisamos realizar um cast como visto em [Tipos de dados e casts](./tipos_primitivos.md.md). O nosso primeiro exemplo ficaria assim:
 
 ```cpp
 #include <iostream>

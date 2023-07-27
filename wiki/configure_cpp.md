@@ -2,8 +2,8 @@
 
 <!-- toc -->
 - [Windows](#windows)
-- [Arch-Based Linux](#arch-based-linux)
-- [Debian-Based Linux](#debian-based-linux)
+- [Arch-Based Linux ](#arch-based-linux)
+- [Debian-Based Linux ](#debian-based-linux)
 <!-- toc -->
 
 ## Windows

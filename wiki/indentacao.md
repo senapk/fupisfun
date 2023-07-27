@@ -2,6 +2,7 @@
 
 <!-- toc -->
 - [Como indentar](#como-indentar)
+- [Dica](#dica)
 - [Tipos de indentação que existem](#tipos-de-indentação-que-existem)
 <!-- toc -->
 
@@ -19,7 +20,7 @@ A indentação correta cria uma aparência de escada no código, como no exemplo
 
 ![escada](https://wiki.hippoedit.com/_media/view/indent-guides.png)
 
-```cpp
+```c++
 #include <iostream>
 
 bool eh_primo(int value) {
@@ -36,7 +37,7 @@ bool eh_primo(int value) {
 
 int main() {
     std::cout << "Digite o valor maximo: ";
-    
+
     int maximo {};
     std::cin >> maximo;
 
@@ -52,6 +53,10 @@ int main() {
     }
 }
 ```
+
+## Dica
+
+A maioria das IDEs tem algum atalho para indentar o código. No vscode, por exemplo, você pode selecionar o código e apertar `CTRL+K` seguido de `CTRL+F`. No Replit, você pode selecionar o código e apertar `CTRL+SHIFT+I`.
 
 ## Tipos de indentação que existem
 

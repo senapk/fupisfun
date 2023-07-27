@@ -2,7 +2,7 @@
 
 <!-- toc -->
 - [Como Instalar](#como-instalar)
-- [Configurando](#configurando-o-vscode)
+- [Utilizando](#utilizando-o-vscode)
 <!-- toc -->
 
 O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvolvida pela Microsoft. É uma ferramenta gratuita e de código aberto, que pode ser utilizada para desenvolver em **diversas linguagens de programação**, incluindo **C++**.
@@ -50,7 +50,7 @@ O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvo
   sudo pacman -S code
   ```
 
-## Configurando o VSCode
+## Utilizando o VSCode
 
 <!-- toc -->
 - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)

@@ -1,8 +1,8 @@
-## Modificadores de Tipo
+# Modificadores de Tipo
 
 O C++ permite o uso de modificadores para ajustar os intervalos de valores armazenados por certos tipos de dados. Os principais modificadores são `short`, `long`, `signed` e `unsigned`. Também existe o modificador `const`, que permite a criação de constantes.
 
-## Modificador `short`:
+## Modificador `short`
 
 Reduz o intervalo de valores do tipo, ocupando menos espaço em memória.
 
@@ -10,13 +10,13 @@ Reduz o intervalo de valores do tipo, ocupando menos espaço em memória.
 
 Exemplo:
 
-```cpp
+```c++
 int contador1;
 short int contador2;
 // O contador2 armazena um intervalo de valores menor que o contador1.
 ```
 
-## Modificador `long`:
+## Modificador `long`
 
 Aumenta o intervalo de valores dos tipos, permitindo representar números maiores.
 
@@ -24,19 +24,19 @@ Aumenta o intervalo de valores dos tipos, permitindo representar números maiore
 
 Exemplo:
 
-```cpp
+```c++
 int contador1;
 long int contador2;
 // O contador2 pode representar um intervalo de valores inteiros maior que o contador1.
 ```
 
-```cpp
+```c++
 double contador1;
 long double contador2;
 // O contador2 pode representar um intervalo de valores reais maior que o contador1.
 ```
 
-## Modificador `signed`:
+## Modificador `signed`
 
 Indica que um tipo pode representar tanto valores positivos como negativos.
 
@@ -45,18 +45,18 @@ Indica que um tipo pode representar tanto valores positivos como negativos.
 
 Exemplo:
 
-```cpp
+```c++
 int contador1;
 signed int contador2;
 // São equivalentes, ambos podem representar valores negativos e positivos.
 ```
 
-```cpp
+```c++
 signed char letra;
 // O letra pode representar valores negativos e positivos.
 ```
 
-## Modificador `unsigned`:
+## Modificador `unsigned`
 
 Indica que um tipo pode representar apenas valores não negativos (ou seja, valores positivos e zero).
 
@@ -65,13 +65,13 @@ Indica que um tipo pode representar apenas valores não negativos (ou seja, valo
 
 Exemplo:
 
-```cpp
+```c++
 int contador1;
 unsigned int contador2;
 // O contador2 só pode representar valores de 0 a algum valor positivo máximo. O intervalo é dobrado em relação ao contador1.
 ```
 
-```cpp
+```c++
 unsigned char letra;
 // O letra pode representar valores de 0 a algum valor positivo máximo.
 ```
@@ -84,7 +84,7 @@ Tornar uma variável imutável, ou seja, seu valor não pode ser alterado após 
 
 Exemplo:
 
-```cpp
+```c++
 const int quantidade = 10;
 const float altura = 10.5;
 const long double pi = 3.14159265359;

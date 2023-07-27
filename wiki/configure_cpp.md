@@ -42,7 +42,7 @@
 
 ## Arch-Based Linux
 
-- Instalando o GDB e o G++
+- **Instalando o GDB e o G++**
 
 ```bash
 sudo pacman -Syu
@@ -54,7 +54,7 @@ sudo pacman -S base-devel gdb
 sudo pacman -S g++
 ```
 
-- Testando a Instalação:
+- **Testando a Instalação:**
 
 ```bash
 gdb --version
@@ -63,7 +63,7 @@ g++ --version
 
 ## Debian-Based Linux
 
-- Instalando o GDB e o G++11
+- **Instalando o GDB e o G++11**
 
 ```bash
 #gdb
@@ -78,7 +78,7 @@ sudo apt install -y g++-11
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
 ```
 
-- Testando a Instalação:
+- **Testando a Instalação:**
 
 ```bash
 gdb --version

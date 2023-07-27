@@ -11,13 +11,12 @@
   - [Curiosidade](#curiosidade)
 - [Tipo Booleano](#tipo-booleano)
   - [`bool`](#bool)
-- [Uso do `auto` para inferir Tipo](#uso-do-auto-para-inferir-tipo)
+- [Uso do `auto` para inferir tipo](#uso-do-auto-para-inferir-tipo)
 <!-- toc -->
 
 Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
 
 ## Tipos de Dados Fundamentais (ou Primitivos)
-
 
 Os tipos de dados fundamentais em C++ podem ser agrupados em três categorias principais:
 

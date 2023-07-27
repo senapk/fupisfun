@@ -117,7 +117,7 @@ A ferramenta de debug do VSCode é muito útil para encontrar erros no seu códi
 
 #### Configurando o Debug
 
-Para configurar o debug, clique no ícone de **debug** na barra lateral e clique em **create a launch.json file**. Selecione **C++ (GDB/LLDB)** e clique em **create a launch.json file**.
+Para configurar o debug, clique no ícone de **debug** na barra lateral e clique em **create a launch.json file**. Selecione **C++ (GDB/LLDB)**.
 
 ![GIF](https://github.com/senapk/fupisfun/assets/103089400/d630685a-f3cd-41ed-a23c-113e07c28da7)
 

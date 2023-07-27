@@ -22,7 +22,7 @@
 
   - Na nova janela, você terá que colocar o caminho do mingw na variável ***"Path"***
     - Observe que você terá duas abas, uma para o usuário atual e outra para o sistema. Escolha de acordo com suas necessidades.
-    - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/a8138fd4-f190-4ba2-aa69-008df40ea652)
+    - ![Imagem](https://user-images.githubusercontent.com/103089400/256557320-e8a0e682-1cc3-4db3-bfa5-fe174d21346f.png)
 
   - Selecione o ***"Path"*** desejado e clique em **"Editar..."**. Uma janela será aberta, clique em **"Novo"** e digite o caminho do mingw. No nosso caso é `C:\mingw64\bin`
     - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/a9f4f4e4-6a0e-45e3-bb9f-afebd81aa2a6)

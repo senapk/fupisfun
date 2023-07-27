@@ -2,6 +2,14 @@
 
 O C++ permite o uso de modificadores para ajustar os intervalos de valores armazenados por certos tipos de dados. Os principais modificadores são `short`, `long`, `signed` e `unsigned`. Também existe o modificador `const`, que permite a criação de constantes.
 
+<!-- toc -->
+- [Modificador `short`](#modificador-short)
+- [Modificador `long`](#modificador-long)
+- [Modificador `signed`](#modificador-signed)
+- [Modificador `unsigned`](#modificador-unsigned)
+- [Modificador `const`](#modificador-const)
+<!-- toc -->
+
 ## Modificador `short`
 
 Reduz o intervalo de valores do tipo, ocupando menos espaço em memória.

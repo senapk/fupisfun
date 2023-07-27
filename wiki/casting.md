@@ -2,6 +2,12 @@
 
 Em C++, o casting é uma operação que permite converter explicitamente um valor de um tipo para outro. Isso é útil quando queremos garantir que um determinado valor seja tratado como outro tipo. Existem vários tipos de cast em C++, sendo um deles o C-style cast, também conhecido como cast tradicional do C.
 
+<!-- toc -->
+- [(Cast Tradicional do C)](#cast-tradicional-do-c)
+- [Exemplos](#exemplos)
+- [Atenção](#atenção)
+<!-- toc -->
+
 ## (Cast Tradicional do C)
 
 Essa é uma forma de conversão que herda a sintaxe do cast utilizado em C.

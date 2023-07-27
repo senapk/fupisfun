@@ -25,7 +25,7 @@
     - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/a8138fd4-f190-4ba2-aa69-008df40ea652)
 
   - Selecione o ***"Path"*** desejado e clique em **"Editar..."**. Uma janela será aberta, clique em **"Novo"** e digite o caminho do mingw. No nosso caso é `C:\mingw64\bin`
-    - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/e8a0e682-1cc3-4db3-bfa5-fe174d21346f)
+    - ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/a9f4f4e4-6a0e-45e3-bb9f-afebd81aa2a6)
 
   - Clique em **"OK"** para todas as janelas.
 

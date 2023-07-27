@@ -1,4 +1,4 @@
-## Introdução aos Tipos de Dados em C++
+# Introdução aos Tipos de Dados em C++
 
 Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
 
@@ -12,9 +12,9 @@ Os tipos de dados fundamentais em C++ podem ser agrupados em três categorias pr
 
 3. **Tipo Booleano**: Armazena valores `true` ou `false`. Exemplo: `bool`.
 
-### Tipos Integrais
+## Tipos Integrais
 
-#### `int`:
+### `int`
 
 - É usado para armazenar valores inteiros, como 1, 100, -50, etc;
 - É um dos tipos de dados mais comuns em C++;
@@ -23,35 +23,35 @@ Os tipos de dados fundamentais em C++ podem ser agrupados em três categorias pr
 
 Exemplo de declaração e atribuição de uma variável do tipo int:
 
-```cpp
+```c++
 int idade = 25;
 ```
 
-#### `char`:
+### `char`
 
 - É usado para armazenar caracteres individuais, como letras, dígitos ou símbolos;
 - Cada caractere `char` ocupa 1 byte de memória e é representado usando aspas simples (' ').
 
 Exemplo de declaração e atribuição de uma variável do tipo char:
 
-```cpp
+```c++
 char letra = 'a';
 ```
 
-### Tipos de Ponto Flutuante
+## Tipos de Ponto Flutuante
 
-#### `float`:
+### `float`
 
 - É usado para armazenar valores de ponto flutuante de precisão simples;
 - Geralmente, representa 32 bits (4 bytes) de memória.
 
 Exemplo de declaração e atribuição de uma variável do tipo float:
 
-```cpp
+```c++
 float altura = 1.75;
 ```
 
-#### `double`:
+### `double`
 
 - É usado para armazenar valores de ponto flutuante de dupla precisão;
 - É mais preciso que o `float`, geralmente representado usando 64 bits (8 bytes) de memória;
@@ -59,13 +59,13 @@ float altura = 1.75;
 
 Exemplo de declaração e atribuição de uma variável do tipo double:
 
-```cpp
+```c++
 float pi = 3.14159265359;
 ```
 
-### Tipo Booleano
+## Tipo Booleano
 
-#### `bool`:
+### `bool`
 
 - É usado para armazenar valores lógicos, representando true (verdadeiro) ou false (falso);
 - Ocupa 1 byte de memória
@@ -73,7 +73,7 @@ float pi = 3.14159265359;
 
 Exemplo de declaração e atribuição de uma variável do tipo bool:
 
-```cpp
+```c++
 bool eh_par = true;
 ```
 
@@ -83,7 +83,7 @@ O C++11 introduziu o uso da palavra-chave `auto` para permitir a inferência de 
 
 Exemplo:
 
-```cpp
+```c++
 auto idade = 25; // O tipo da variável idade será inferido como int.
 auto altura = 1.75; // O tipo da variável altura será inferido como double.
 ```

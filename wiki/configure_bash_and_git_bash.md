@@ -35,8 +35,8 @@ Como o **Bash** não é o interpretador padrão do Windows, é necessário insta
 
 ## Utilizando o Bash
 
-O **Bash** tem uma sintaxe muito simples. Para executar um comando, basta escrevê-lo e apertar `Enter`. Por exemplo, para listar os arquivos de uma pasta, basta escrever `ls` e apertar `Enter`.
-Você pode combinar parâmetros de um comando para alterar seu comportamento. Por exemplo, para listar todos os arquivos de uma pasta, incluindo os ocultos, basta escrever `ls -la` e apertar `Enter`. (`ls -l` + `ls -a`)
+O **Bash** tem uma sintaxe muito simples. Para executar um comando, basta escrevê-lo e apertar `Enter`. Exemplificando, para listar os arquivos de uma pasta, basta usar `ls`.
+Você pode combinar parâmetros de um comando para alterar seu comportamento. Por exemplo, para listar todos os arquivos de uma pasta, incluindo os ocultos, basta escrever `ls -la`. (`ls -l` + `ls -a`)
 
 ![GIF](https://github.com/senapk/fupisfun/assets/103089400/f6e3850b-6783-4796-8eeb-a69ece072f3b)
 

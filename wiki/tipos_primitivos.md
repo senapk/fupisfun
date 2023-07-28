@@ -11,8 +11,8 @@
 - [Tipo Booleano](#tipo-booleano)
   - [`bool`](#bool)
 - [Uso do `auto` para inferir tipo](#uso-do-auto-para-inferir-tipo)
-  - [Curiosidade 1](#curiosidade-1)
-- [Curiosidade 2](#curiosidade-2)
+- [Curiosidade 1 - imprecisão](#curiosidade-1---imprecisão)
+- [Curiosidade 2 - `sizeof`](#curiosidade-2---sizeof)
 <!-- toc -->
 
 Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
@@ -108,7 +108,7 @@ auto eh_par = false; // O tipo da variável eh_par será inferido como bool.
 auto letra = 'a'; // O tipo da variável letra será inferido como char.
 ```
 
-### Curiosidade 1
+## Curiosidade 1 - imprecisão
 
 Só por curiosidade, o código abaixo mostra como o número 0.1 é representado em memória usando `float` e `double`.
 
@@ -132,7 +132,7 @@ double: 0.10000000000000000555
 
 Dá pra ver como é a aproximação do número 0.1 em cada tipo de dado e como o tipo `double` é mais preciso.
 
-## Curiosidade 2
+## Curiosidade 2 - `sizeof`
 
 A função `sizeof` pode ser utilizada para descobrir o tamanho em bytes de um tipo de dado. O código abaixo vai imprimir o tamanho em bytes de cada tipo de dado:
 

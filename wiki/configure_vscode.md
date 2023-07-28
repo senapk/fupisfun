@@ -9,12 +9,8 @@
   - [Abrindo o Terminal Integrado](#abrindo-o-terminal-integrado)
   - [Explorer](#explorer)
   - [Usando o Editor de Texto](#usando-o-editor-de-texto)
+  - [A configuração mais importante](#a-configuração-mais-importante)
   - [Extensões no VSCode](#extensões-no-vscode)
-    - [Instalando Extensões](#instalando-extensões)
-  - [Debuggando](#debuggando)
-    - [Configurando o Debug](#configurando-o-debug)
-    - [Iniciando o Debug](#iniciando-o-debug)
-    - [Usando o Debug](#usando-o-debug)
 <!-- toc -->
 
 O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvolvida pela Microsoft. É uma ferramenta gratuita e de código aberto, que pode ser utilizada para desenvolver em **diversas linguagens de programação**, incluindo **C++**.
@@ -23,7 +19,7 @@ O Visual Studio Code é uma **IDE (Integrated Development Environment)** desenvo
 
 ### Windows
 
-- Baixe por este [link](https://az764295.vo.msecnd.net/stable/74f6148eb9ea00507ec113ec51c489d6ffb4b771/VSCodeUserSetup-x64-1.80.1.exe)
+- Baixe por este [link](https://code.visualstudio.com/download) e baixe a versão para windows.
 - Execute o arquivo baixado e siga as instruções de instalação
 
 ### Debian-Based Linux
@@ -88,11 +84,21 @@ O editor de texto é a parte principal do VSCode. É onde você vai escrever o s
   - `Ctrl + A`: Seleciona todo o texto
   - `Shift + Alt + F`: Formata o código **(MUITO IMPORTANTE!!)**
 
+### A configuração mais importante
+
+Muitas vezes é comum ver os iniciantes escrevendo o código e esquecendo de salvar o arquivo antes de compilar. Então modifique essa opção para colocar o salvamento do código como automático.
+
+- Vá nas configurações do vscode `Ctrl + ,` ou vá pelo menu:
+  - Inglês: File -> Preferences -> Settings
+  - Português: Arquivo -> Preferências -> Configurações.
+- No campo de busca de configuração digite `auto save`.
+- Na opção do `auto save` escolha `after delay`.
+
+![image](https://github.com/senapk/fupisfun/assets/4747652/a421f29d-9525-426c-94a2-7f7057219f78)
+
 ### Extensões no VSCode
 
 As extensões são ferramentas que podem ser instaladas no VSCode para adicionar funcionalidades.
-
-#### Instalando Extensões
 
 Para instalar uma extensão, clique no ícone de **extensões** na barra lateral e digite o nome da extensão que você quer instalar. Clique em **instalar** para instalar a extensão.
 
@@ -102,25 +108,3 @@ Para instalar uma extensão, clique no ícone de **extensões** na barra lateral
   - **C/C++**: Adiciona suporte para a linguagem C++
   - **Code Runner**: Permite executar o código diretamente no VSCode.
   - **Error Lens**: Mostra os erros no código sem precisar passar o mouse por cima.
-
-### Debuggando
-
-A ferramenta de debug do VSCode é muito útil para encontrar erros no seu código, utilizando breakpoints e outras ferramentas.
-
-#### Configurando o Debug
-
-Para configurar o debug, clique no ícone de **debug** na barra lateral e clique em **create a launch.json file**. Selecione **C++ (GDB/LLDB)**.
-
-![GIF](https://github.com/senapk/fupisfun/assets/103089400/d630685a-f3cd-41ed-a23c-113e07c28da7)
-
-#### Iniciando o Debug
-
-Para começar a debuggar, primeiro coloque um **breakpoint** na linha que você quer debuggar. Para isso, clique na linha e aperte `F9` ou clique à esquerda do número da linha. Depois, clique no ícone de **debug** na barra lateral e clique em **start debugging** ou aperte `F5`. Aparecerão os compiladores disponíveis, selecione **g++ build and debug active file**. O debug irá começar.
-
-![GIF](https://github.com/senapk/fupisfun/assets/103089400/510ff958-c905-4131-b608-c212a917a4af)
-
-#### Usando o Debug
-
-Após iniciar o debug, irá aparecer uma barra na parte superior da tela. Você pode usar os botões para **avançar** ou **voltar** o código, **continuar** a execução ou **parar** o debug. Você também pode usar o **terminal** para executar comandos. Teste por você mesmo!
-
-![Image](https://github.com/senapk/fupisfun/assets/103089400/682009e2-87f2-43ea-a924-e50c4c5d1ee1)

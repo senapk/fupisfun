@@ -24,12 +24,10 @@ int main() {
     std::cin >> numero;
 
     if (numero % 2 == 0) {
-        std::cout << numero << " é um número par." << std::endl;
+        std::cout << numero << " é um número par.\n";
     } else {
-        std::cout << numero << " é um número ímpar." << std::endl;
+        std::cout << numero << " é um número ímpar.\n";
     }
-
-    return 0;
 }
 ```
 
@@ -45,10 +43,8 @@ int main() {
 
     for (int i = 1; i <= 10; i++) {
         contador = (contador + i) % 5;
-        std::cout << "Iteração " << i << ": Contador = " << contador << std::endl;
+        std::cout << "Iteração " << i << ": Contador = " << contador << '\n';
     }
-
-    return 0;
 }
 ```
 
@@ -68,9 +64,7 @@ int main() {
     // Usando o operador de módulo para garantir um índice válido.
     indice = indice % tamanhoArray;
 
-    std::cout << "Valor no índice " << indice << ": " << array[indice] << std::endl;
-
-    return 0;
+    std::cout << "Valor no índice " << indice << ": " << array[indice] << '\n';
 }
 ```
 
@@ -137,9 +131,7 @@ int main() {
     auto sf = std::setfill('0');
     auto sw = std::setw(2);
 
-    std::cout << "A data " << sf << sw << dia << "/" << sw << mes << "/" << ano << " cai em um(a) " << diasDaSemana[diaDaSemana] << "." << std::endl;
-
-    return 0;
+    std::cout << "A data " << sf << sw << dia << "/" << sw << mes << "/" << ano << " cai em um(a) " << diasDaSemana[diaDaSemana] << ".\n";
 }
 ```
 

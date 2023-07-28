@@ -27,7 +27,9 @@ Também conhecida como `"if-then"` em muitas linguagens de programação, é a f
 mais **básica** de estrutura condicional. Ela avalia uma condição e executa um
 bloco de código se essa condição for **verdadeira**. Caso a condição seja **falsa**,
 o bloco de código não é executado e o programa continua sua execução normalmente.
-Veja um exemplo na `linguagem c++`:
+Veja esses exemplo abaixo na `linguagem c++`:
+
+Exemplo 1:
 
 ```c++
 if (idade >= 18){
@@ -38,16 +40,29 @@ if (idade >= 18){
 No código acima, a messagem "Você é maior de idade." apenas vai ser mostrada se
 a variável `idade` tiver valor maior ou igual a 18.
 
+Exemplo 2:
+
+```c++
+if (numero > 0) {
+    std::cout << "O número é positivo." << std::endl;
+}
+```
+
+No código acima, a messagem "O número é positivo." apenas vai ser mostrada se
+a variável `numero` tiver valor maior que 0.
+
 ### 2. **Estrutura de Seleção Composta**
 
 É uma extensão da estrutura simples, na qual além de executar um bloco de código
 quando uma condição é verdadeira, também pode executar outro bloco de código caso
-a condição seja falsa. Veja o exemplo em `linguagem c++`:
+a condição seja falsa. Veja esses exemplos abaixo na `linguagem c++`:
+
+Exemplo 1:
 
 ```c++
 if (idade >= 18){
     std::cout << "Você é maior de idade." << std::endl;
-}else{
+} else {
     std::cout << "Você é menor de idade." << std::endl;
 }
 ```
@@ -56,14 +71,30 @@ No código acima, a messagem "Você é maior de idade." apenas vai ser mostrada 
 a variável `idade` tiver valor maior ou igual a 18. Se a idade for menor 18, então
 a menssagem "Você é menor de idade." é mostrada.
 
-Além disso, usando Estrutura de Seleção Composta, é possível criar mais de uma
-condição utilizando a palavra reservada `else if` seguido de outra condição. Veja
- o exemplo em `linguagem c`:
+Exemplo 2:
 
 ```c++
-if (valor%2 == 0){
+if (numero % 2 == 0) {
+    std::cout << "O número é par." << std::endl;
+} else {
+    std::cout << "O número é ímpar." << std::endl;
+}
+```
+
+No código acima, a messagem "O número é par." apenas vai ser mostrada se
+a variável `numero` tiver o resto da divisão por 2 igual a 0. Se o resto da divisão for diferente de 0, então
+a menssagem "O número é ímpar." é mostrada.
+
+Além disso, usando Estrutura de Seleção Composta, é possível criar mais de uma
+condição utilizando a palavra reservada `else if` seguido de outra condição. Veja
+ os exemplo abaixo na `linguagem c++`:
+
+Exemplo 1:
+
+```c++
+if (valor%2 == 0) {
     std::cout << "o valor é divisível por 2" << std::endl;
-} else if(valor%3 == 0) {
+} else if (valor%3 == 0) {
     std::cout << "o valor é divisível por 3" << std::endl;
 } else {
     std::cout << "o valor não é divisível nem por 2 e nem por 3" << std::endl;
@@ -77,6 +108,23 @@ ser executada. Por exemplo, no código anterior, para uma `valor = 6`, as condi�
 `(valor%2 == 0)` e `(valor%3 == 0)` são verdadeiras. Porém, como a condição
 `(valor%2 == 0)` vem primeiro, apenas o seu bloco vai ser executado, enquanto
 as demais condições vão ser ignoradas.
+
+Exemplo 2:
+
+```c++
+if (media < 4) {
+    std::cout << "aluno reprovado" << std::endl;
+} else if (media >= 4 && media < 7) {
+    std::cout << "aluno ficou de af" << std::endl;
+} else {
+    std::cout << "aluno aprovado" << std::endl;
+}
+```
+
+Nesse exemplo, a mensagem `aluno reprovado` será exibida apenas se a variável `media` for
+menor que 4. A mensagem `aluno` ficou de af será exibida somente se a variável `media` for
+maior ou igual a 4 e menor do que. Já a mensagem `aluno aprovado` será exibida apenas se
+a variável `media` for maior do que 7.
 
 ## Exemplo em C++
 

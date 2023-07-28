@@ -32,12 +32,12 @@ Veja esses exemplo abaixo na `linguagem c++`:
 Exemplo 1:
 
 ```c++
-if (idade >= 18){
-    std::cout << "Você é maior de idade." << std::endl;
+if (idade >= 18) {
+    std::cout << "Você é maior de idade.\n";
 }
 ```
 
-No código acima, a messagem "Você é maior de idade." apenas vai ser mostrada se
+No código acima, a mensagem "Você é maior de idade." apenas vai ser mostrada se
 a variável `idade` tiver valor maior ou igual a 18.
 
 Exemplo 2:
@@ -48,7 +48,7 @@ if (numero > 0) {
 }
 ```
 
-No código acima, a messagem "O número é positivo." apenas vai ser mostrada se
+No código acima, a mensagem "O número é positivo." apenas vai ser mostrada se
 a variável `numero` tiver valor maior que 0.
 
 ### 2. **Estrutura de Seleção Composta**
@@ -60,44 +60,26 @@ a condição seja falsa. Veja esses exemplos abaixo na `linguagem c++`:
 Exemplo 1:
 
 ```c++
-if (idade >= 18){
-    std::cout << "Você é maior de idade." << std::endl;
+if (idade >= 18) {
+    std::cout << "Você é maior de idade." << '\n';
 } else {
-    std::cout << "Você é menor de idade." << std::endl;
+    std::cout << "Você é menor de idade." << '\n';
 }
 ```
 
-No código acima, a messagem "Você é maior de idade." apenas vai ser mostrada se
+No código acima, a mensagem "Você é maior de idade." apenas vai ser mostrada se
 a variável `idade` tiver valor maior ou igual a 18. Se a idade for menor 18, então
-a menssagem "Você é menor de idade." é mostrada.
+a mensagem "Você é menor de idade." é mostrada.
 
 Exemplo 2:
 
 ```c++
-if (numero % 2 == 0) {
-    std::cout << "O número é par." << std::endl;
+if (valor % 2 == 0) {
+    std::cout << "o valor é divisível por 2" << '\n';
+} else if (valor % 3 == 0) {
+    std::cout << "o valor é divisível por 3" << '\n';
 } else {
-    std::cout << "O número é ímpar." << std::endl;
-}
-```
-
-No código acima, a messagem "O número é par." apenas vai ser mostrada se
-a variável `numero` tiver o resto da divisão por 2 igual a 0. Se o resto da divisão for diferente de 0, então
-a menssagem "O número é ímpar." é mostrada.
-
-Além disso, usando Estrutura de Seleção Composta, é possível criar mais de uma
-condição utilizando a palavra reservada `else if` seguido de outra condição. Veja
- os exemplo abaixo na `linguagem c++`:
-
-Exemplo 1:
-
-```c++
-if (valor%2 == 0) {
-    std::cout << "o valor é divisível por 2" << std::endl;
-} else if (valor%3 == 0) {
-    std::cout << "o valor é divisível por 3" << std::endl;
-} else {
-    std::cout << "o valor não é divisível nem por 2 e nem por 3" << std::endl;
+    std::cout << "o valor não é divisível nem por 2 e nem por 3" << '\n';
 }
 ```
 
@@ -105,8 +87,8 @@ if (valor%2 == 0) {
 **apenas um único bloco de código vai ser executado**. Além disso, se um valor
 satisfaz mais de uma condição, apenas a **primeira ocorrência** que aparecer vai
 ser executada. Por exemplo, no código anterior, para uma `valor = 6`, as condições
-`(valor%2 == 0)` e `(valor%3 == 0)` são verdadeiras. Porém, como a condição
-`(valor%2 == 0)` vem primeiro, apenas o seu bloco vai ser executado, enquanto
+`(valor % 2 == 0)` e `(valor % 3 == 0)` são verdadeiras. Porém, como a condição
+`(valor % 2 == 0)` vem primeiro, apenas o seu bloco vai ser executado, enquanto
 as demais condições vão ser ignoradas.
 
 Exemplo 2:
@@ -142,11 +124,11 @@ int main() {
 
     // Verifica se o número é positivo, negativo ou igual a zero
     if (numero > 0) {
-        std::cout << "O numero digitado é positivo." << std::endl;
+        std::cout << "O numero digitado é positivo." << '\n';
     } else if (numero < 0) {
-        std::cout << "O numero digitado é negativo." << std::endl;
+        std::cout << "O numero digitado é negativo." << '\n';
     } else {
-        std::cout << "O numero digitado é igual a zero." << std::endl;
+        std::cout << "O numero digitado é igual a zero." << '\n';
     }
 
     return 0;

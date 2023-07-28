@@ -18,7 +18,7 @@ Em C++, o operador de módulo é representado pelo símbolo `"%"`. Ele é aplica
 
 A sintaxe é a seguinte:
 
-```algorithm
+```txt
 resultado = numero1 % numero2;
 ```
 

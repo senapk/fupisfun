@@ -1,13 +1,9 @@
 # Exercícios de módulo
 
 <!-- toc -->
-- [Exercícios de módulo](#exercícios-de-módulo)
-  - [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
-  - [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
-  - [Exercício 3: Manipulação de índices em arrays](#exercício-3-manipulação-de-índices-em-arrays)
-  - [Exercício 4: Calendários e datas](#exercício-4-calendários-e-datas)
-    - [Fórmula de Zeller](#fórmula-de-zeller)
-    - [Utilizando a fórmula de Zeller](#utilizando-a-fórmula-de-zeller)
+- [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
+- [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
+- [Exercício 3: Calendários e datas](#exercício-3-calendários-e-datas)
 <!-- toc -->
 
 ## Exercício 1: Verificando se um número é par ou ímpar
@@ -48,29 +44,7 @@ int main() {
 }
 ```
 
-## Exercício 3: Manipulação de índices em arrays
-
-Neste exemplo, temos um array de tamanho 5, representado pela variável array. No código, tentamos acessar o valor do array no índice 7, o que é um índice inválido, pois está fora dos limites do array (0 a `4`). Para garantir que o índice seja válido, utilizamos o operador de módulo para calcular o resto da divisão do índice pelo tamanho do array. Dessa forma, o índice resultante será sempre um valor entre 0 e 4, garantindo que acessaremos um elemento válido do array. Essa técnica é muito útil para manipulação segura de índices em arrays e estruturas de dados, evitando acessos indevidos à memória.
-
-```cpp
-#include <iostream>
-
-int main() {
-    int tamanhoArray = 5;
-    int array[] = {10, 20, 30, 40, 50};
-
-    int indice = 7; // Um índice inválido, pois está fora dos limites do array.
-
-    // Usando o operador de módulo para garantir um índice válido.
-    indice = indice % tamanhoArray;
-
-    std::cout << "Valor no índice " << indice << ": " << array[indice] << '\n';
-}
-```
-
-## Exercício 4: Calendários e datas
-
-### Fórmula de Zeller
+## Exercício 3: Calendários e datas
 
 A **fórmula de Zeller** é um algoritmo matemático desenvolvido pelo matemático alemão **Christian Zeller** no século XIX. Essa fórmula é usada para calcular o dia da semana correspondente a uma data específica, ou seja, determinar se uma data cai em uma segunda-feira, terça-feira, etc. O resultado é um número de 0 a 6, onde 0 representa o sábado, 1 o domingo e assim por diante.
 
@@ -89,8 +63,6 @@ Onde:
   - Por exemplo, para 1995 o ano do século seria 95.
 - `D` é o século do ano (`ano div 100`, ignorando os dígitos após a vírgula).
   - Por exemplo, para 1995 o século seria 19, ainda que na realidade o século seria XX.
-
-### Utilizando a fórmula de Zeller
 
 Neste exemplo, o programa solicita ao usuário que digite uma data (dia, mês e ano). Em seguida, utiliza a **fórmula de Zeller** para calcular o dia da semana correspondente a essa data.
 

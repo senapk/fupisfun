@@ -118,8 +118,8 @@ Só por curiosidade, o código abaixo mostra como o número 0.1 é representado 
 
 int main (){
     std::cout << std::fixed;
-    std::cout << "float : " << std::setprecision(20) << (float) 0.1 << '\n';
-    std::cout << "double: " << std::setprecision(20) << (double) 0.1 << '\n';
+    std::cout << "float : " << std::setprecision(20) << (float) 0.1 << '\n';  // 0.10000000149011611938
+    std::cout << "double: " << std::setprecision(20) << (double) 0.1 << '\n'; // 0.10000000000000000555
 }
 ```
 
@@ -140,10 +140,10 @@ A função `sizeof` pode ser utilizada para descobrir o tamanho em bytes de um t
 #include <iostream>
 
 int main() {
-  std::cout << "int : " << sizeof(int) << '\n';
-  std::cout << "char: " << sizeof(char) << '\n';
-  std::cout << "float: " << sizeof(float) << '\n';
-  std::cout << "double: " << sizeof(double) << '\n';
-  std::cout << "bool: " << sizeof(bool) << '\n';
+  std::cout << "int : " << sizeof(int) << '\n';      // 4
+  std::cout << "char: " << sizeof(char) << '\n';     // 1
+  std::cout << "float: " << sizeof(float) << '\n';   // 4
+  std::cout << "double: " << sizeof(double) << '\n'; // 8
+  std::cout << "bool: " << sizeof(bool) << '\n';     // 1
 }
 ```

@@ -21,8 +21,8 @@ Para imprimir um número com um número específico de casas decimais, você pod
 int main() {
     double num = 3.14159265359;
     std::cout << std::fixed; //persistente, só precisa ser dado uma vez
-    std::cout << std::setprecision(2) << "2 casas: " << num << '\n'; //precisa ser dado antes de cada número
-    std::cout << std::setprecision(4) << "4 casas: " << num << '\n';
+    std::cout << std::setprecision(2) << "2 casas: " << num << '\n'; // 3.14
+    std::cout << std::setprecision(4) << "4 casas: " << num << '\n'; // 3.1416
 }
 ```
 

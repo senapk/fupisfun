@@ -31,7 +31,7 @@
   - [x] [Aprenda a indentar](wiki/indentacao.md)
 - Aula 05: Operações Básicas
   - [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
-  - [ ] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
+  - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
   - [ ] [Operador ternário](wiki/operador_ternario.md)
   - [ ] [Entrada de dados básica com cin](wiki/entrada_dados.md)
   - [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
@@ -40,18 +40,18 @@
 
 - Aula 06: Seleção Básica
   - [ ] [Atribuição e incremento](wiki/atribuicao_incremento.md)
-  - [ ] [Estruturas de seleção](wiki/selecao_if_else.md)
+  - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
   - [ ] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
 - Aula 07: Debugando
   - [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
-  - [ ] [Debugando o primeiro código](wiki/debugando.md)
+  - [x] [Debugando o primeiro código](wiki/debugando.md)
 - Aula 08: Técnicas de seleção I
   - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
   - [ ] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 - Aula 09: Técnicas de seleção II
   - [ ] [switch case](wiki/seleção_switch_case.md)
-  - [ ] [operador de módulo](wiki/operador_modulo.md)
-  - [ ] [exercícios de módulo](wiki/exercicios_modulo.md)
+  - [x] [operador de módulo](wiki/operador_modulo.md)
+  - [x] [exercícios de módulo](wiki/exercicios_modulo.md)
 
 ### Bloco 03 - Função
 

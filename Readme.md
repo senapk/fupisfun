@@ -13,7 +13,7 @@
   - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
   - [x] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
   - [x] [IDE: Visual Studio Code (vscode)](wiki/configure_vscode.md)
-  - [ ] [Instalação do Git Bash](wiki/configure_git_bash.md)
+  - [ ] [Uso do Bash e Instalação do Git Bash](wiki/configure_bash_and_git_bash.md)
   - [ ] [IDE: Replit](wiki/configure_replit.md)
 - Aula 03: Primeiro código
   - [x] [Primeiro código](wiki/primeiro_codigo.md)

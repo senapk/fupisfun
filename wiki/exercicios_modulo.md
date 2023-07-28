@@ -1,13 +1,12 @@
 # Exercícios de módulo
 
 <!-- toc -->
-- [Exercícios de módulo](#exercícios-de-módulo)
-  - [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
-  - [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
-  - [Exercício 3: Manipulação de índices em arrays](#exercício-3-manipulação-de-índices-em-arrays)
-  - [Exercício 4: Calendários e datas](#exercício-4-calendários-e-datas)
-    - [Fórmula de Zeller](#fórmula-de-zeller)
-    - [Utilizando a fórmula de Zeller](#utilizando-a-fórmula-de-zeller)
+- [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
+- [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
+- [Exercício 3: Manipulação de índices em arrays](#exercício-3-manipulação-de-índices-em-arrays)
+- [Exercício 4: Calendários e datas](#exercício-4-calendários-e-datas)
+  - [Fórmula de Zeller](#fórmula-de-zeller)
+  - [Utilizando a fórmula de Zeller](#utilizando-a-fórmula-de-zeller)
 <!-- toc -->
 
 ## Exercício 1: Verificando se um número é par ou ímpar

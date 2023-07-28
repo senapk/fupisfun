@@ -1,56 +1,77 @@
-# Casting
+# Valores, Lugares e Casting
 
-Em C++, o casting é uma operação que permite converter explicitamente um valor de um tipo para outro. Isso é útil quando queremos garantir que um determinado valor seja tratado como outro tipo. Existem vários tipos de cast em C++, sendo um deles o C-style cast, também conhecido como cast tradicional do C.
+Em C++, o casting é uma operação que permite converter explicitamente um valor de um tipo para outro. Isso é útil quando queremos garantir que um determinado valor seja tratado como outro tipo.
 
 <!-- toc -->
+- [Conversões](#conversões)
 - [Cast Tradicional do C](#cast-tradicional-do-c)
-- [Exemplos](#exemplos)
-- [Atenção](#atenção)
 <!-- toc -->
+
+## Conversões
+
+Conversões acontecem naturalmente quando utilizamos o operador de atribuição. Vamos relembrar os tipos de dados padrão:
+
+```c++
+5     //int
+5.4   //double
+3.6f  //float
+`a`   //char
+true  //boolean
+```
+
+Quando fazemos uma atribuição, ele vai tentar converter da melhor forma possível.
+
+- Um ponto flutuante para inteiro vai perder a parte fracionada.
+
+```cpp
+int x = 5.53;   //double para int
+int y = 4.123f; //float para int
+std::cout << x << ", " << y; // 5, 4
+```
+
+- Um inteiro para ponto flutuante vai ser convertido sem perdas.
+
+```c++
+double x = 5;
+std::cout << x; //5.0
+```
+
+- Um inteiro para `char` vai ser convertido de acordo com a [tabela ASCII](tabela_asc2.md).
+
+```c++
+int x = `a`;
+std::cout << x; //97
+
+char c = 97;
+std::cout << c; //'a';
+```
+
+- Booleano `false` é qualquer valor zero. Todo o resto é convertido para `true`.
+
+```cpp
+bool f = 3;
+std::cout << f; //true
+
+bool g = 0;
+std::cout << g; //false
+```
 
 ## Cast Tradicional do C
 
-Essa é uma forma de conversão que herda a sintaxe do cast utilizado em C.
+Você não precisa de uma atribuição para converter um tipo para outro, isso pode ser feito diretamente através de um cast.
 
 A sintaxe do C-style cast é a seguinte:
 
 ```c++
-(NovoTipo) expressao;
+(tipo) valor;
 ```
 
-Onde NovoTipo é o tipo de dados para o qual desejamos converter a expressão.
-
-## Exemplos
-
-- **Conversão de Inteiro para Ponto Flutuante:**
+Onde tipo é o tipo de dados para o qual desejamos converter a expressão.
 
 ```c++
-int idade = 25;
-double idadeEmAnos = (double)idade;
+#include <iostream>
+int main() {
+    std::cout << (char) 97 << '\n'; //a
+    std::cout << (int) 45.1235 << '\n'; //45
+}
 ```
-
-Neste exemplo, temos uma variável idade do tipo `int` que armazena o valor 25. Usando o casting, convertemos explicitamente o valor de idade para o tipo `double`, atribuindo-o à variável idadeEmAnos. Dessa forma, garantimos que a conversão seja realizada corretamente e que o valor seja tratado como um número de ponto flutuante.
-
-- **Conversão de Ponto Flutuante para Inteiro:**
-
-```c++
-double preco = 25.99;
-int precoInteiro = (int)preco;
-```
-
-Neste exemplo, temos uma variável preco do tipo `double` que armazena o valor 25.99. Ao usar o casting, convertemos explicitamente o valor de preco para o tipo `int`, atribuindo-o à variável precoInteiro. Nesse caso, o valor decimal é truncado, e a variável precoInteiro armazena o valor 25.
-
-- **Conversão de Char para Int:**
-
-```c++
-char caractere = 'A';
-int valorAscii = (int)caractere;
-```
-
-Neste exemplo, temos uma variável caractere do tipo `char` que armazena o caractere 'A'. Ao utilizar o casting, convertemos explicitamente o valor de caractere para o tipo `int`, atribuindo-o à variável valorAscii. O casting converterá o valor ASCII do caractere 'A' (que é 65) para o tipo `int`, e a variável valorAscii armazenará o valor 65.
-
-## Atenção
-
-É importante ter cuidado ao usar um casting, pois ele pode permitir conversões que são perigosas ou que possam resultar em perda de dados, como na conversão de `double` para `int`, em que a parte decimal (.99) se perdeu.
-
-O C++ possui outros tipos de castings mais seguros e específicos para algumas situações, como o **Static Cast**, **Dynamic Cast**, **Const Cast** e **Reinterpret Cast**.

@@ -21,8 +21,9 @@
   - [x] [Segundo código](wiki/segundo_codigo.md)
 - Aula 04: Entendendo melhor os tipos
   - [x] [Tipos de dados primitivos](wiki/tipos_primitivos.md)
-  - [ ] [Modificadores de tipo](wiki/modificadores.md)
-  - [ ] [Conversão entre tipos (casting)](wiki/casting.md)
+  - [ ] [O tipo string](wiki/tipo_string.md)
+  - [x] [Limites e Modificadores de tipo](wiki/modificadores.md)
+  - [x] [Conversão entre tipos (casting)](wiki/casting.md)
   - [x] [Variáveis](wiki/variaveis.md): Boas práticas
   - [ ] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
   - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)
@@ -74,6 +75,7 @@
   - geração de números aleatórios com Mersenne Twister
   - argc e argv
 - Aula 14
+  - [Tabela ASC](wiki/tabela_asc2.md)
   - string, métodos de string, replace
   - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
   - split, join

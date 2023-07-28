@@ -1,68 +1,45 @@
-# Modificadores de Tipo
-
-O C++ permite o uso de modificadores para ajustar os intervalos de valores armazenados por certos tipos de dados. Os principais modificadores são `short`, `long`, `signed` e `unsigned`. Também existe o modificador `const`, que permite a criação de constantes.
+# Limites e Modificadores de Tipo
 
 <!-- toc -->
-- [Modificador `short`](#modificador-short)
 - [Modificador `long`](#modificador-long)
-- [Modificador `signed`](#modificador-signed)
 - [Modificador `unsigned`](#modificador-unsigned)
 - [Modificador `const`](#modificador-const)
 <!-- toc -->
 
-## Modificador `short`
+O C++ permite o uso de modificadores para ajustar os intervalos e limites de valores armazenados por certos tipos de dados. Os principais modificadores são:
 
-Reduz o intervalo de valores do tipo, ocupando menos espaço em memória.
-
-- Só pode ser usado no tipo `int`.
-
-Exemplo:
-
-```c++
-int contador1;
-short int contador2;
-// O contador2 armazena um intervalo de valores menor que o contador1.
-```
+- `long`: aumenta o intervalo de valores armazenados;
+- `unsigned`: representa apenas valores não negativos;
+- `const`: cria variáveis que não podem ser alteradas (constantes).
 
 ## Modificador `long`
 
-Aumenta o intervalo de valores dos tipos, permitindo representar números maiores.
-
-- Pode ser usado nos tipos `int` e `double`.
-
-Exemplo:
+Aumenta o intervalo de valores dos tipos, permitindo representar números maiores. O código abaixo vai uma variável do tipo `int` e uma do tipo `long int`, que podem representar valores maiores. Vai também utilizar as função `sizeof` para mostrar o tamanho em bytes de cada dado e a função `numeric_limits` para imprimir os limites máximos e mínimos de cada tipo.
 
 ```c++
-int contador1;
-long int contador2;
-// O contador2 pode representar um intervalo de valores inteiros maior que o contador1.
+#include <iostream>
+#include <limits>
+
+int main() {
+    int i {};
+    long int li {};
+
+    std::cout << "Tamanho em bytes:\n";
+    std::cout << "int " << sizeof(i) << '\n';       // 4
+    std::cout << "long int " << sizeof(li) << '\n'; // 8
+
+    std::cout << "Valor máximo:\n";
+    std::cout << "int "           << std::numeric_limits<int>::max() << '\n';      //  2147483647
+    std::cout << "long int "      << std::numeric_limits<long int>::max() << '\n'; //  9223372036854775807
+
+    std::cout << "Valor mínimo:\n";
+    std::cout << "int "           << std::numeric_limits<int>::min() << '\n';      // -2147483648
+    std::cout << "long int "      << std::numeric_limits<long int>::min() << '\n'; // -9223372036854775808
+}
+
 ```
 
-```c++
-double contador1;
-long double contador2;
-// O contador2 pode representar um intervalo de valores reais maior que o contador1.
-```
-
-## Modificador `signed`
-
-Indica que um tipo pode representar tanto valores positivos como negativos.
-
-- Pode ser usado nos tipos `int` e `char`.
-- No C++, o tipo `int` é signed por padrão. Ou seja, `int` é equivalente a `signed int`, o que significa que esse tipo pode representar valores negativos e positivos dentro de um determinado intervalo.
-
-Exemplo:
-
-```c++
-int contador1;
-signed int contador2;
-// São equivalentes, ambos podem representar valores negativos e positivos.
-```
-
-```c++
-signed char letra;
-// O letra pode representar valores negativos e positivos.
-```
+Então fique atento, se o problema que você está resolvendo envolve números muito grandes, acima de 2 bilhões, você deve usar o tipo `long int` ou `long double`.
 
 ## Modificador `unsigned`
 
@@ -76,12 +53,19 @@ Exemplo:
 ```c++
 int contador1;
 unsigned int contador2;
-// O contador2 só pode representar valores de 0 a algum valor positivo máximo. O intervalo é dobrado em relação ao contador1.
 ```
 
-```c++
-unsigned char letra;
-// O letra pode representar valores de 0 a algum valor positivo máximo.
+Mas fica a dica, **evite** utilizar o tipo `unsigned int` para representar valores, pois isso pode causar problemas de lógica no seu programa. Por exemplo, se você declarar uma variável do tipo `unsigned int` e tentar atribuir um valor negativo a ela, o compilador não vai reclamar, mas o valor armazenado vai ser convertido e se tornará um valor muito grande, que pode causar problemas de lógica no seu programa.
+
+```cpp
+#include <iostream>
+
+int main() {
+    unsigned int x = 0;
+    x -= 1;
+    std::cout << x << '\n'; //4294967295
+}
+
 ```
 
 ## Modificador `const`

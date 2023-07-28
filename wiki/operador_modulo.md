@@ -1,10 +1,9 @@
 # Operador de módulo
 
 <!-- toc -->
-- [Operador de módulo](#operador-de-módulo)
-  - [Conceito Matemático do Operador de Módulo](#conceito-matemático-do-operador-de-módulo)
-  - [Uso do Operador de Módulo em C++](#uso-do-operador-de-módulo-em-c)
-  - [Importância e Utilidade](#importância-e-utilidade)
+- [Conceito Matemático do Operador de Módulo](#conceito-matemático-do-operador-de-módulo)
+- [Uso do Operador de Módulo em C++](#uso-do-operador-de-módulo-em-c)
+- [Importância e Utilidade](#importância-e-utilidade)
 <!-- toc -->
 
 ## Conceito Matemático do Operador de Módulo

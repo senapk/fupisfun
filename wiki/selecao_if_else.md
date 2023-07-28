@@ -3,6 +3,8 @@
 <!-- toc -->
 - [Introdução](#introdução)
 - [Formas de Estruturas de Seleção](#formas-de-estruturas-de-seleção)
+  - [1. **Estrutura de Seleção Simples**](#1-estrutura-de-seleção-simples)
+  - [2. **Estrutura de Seleção Composta**](#2-estrutura-de-seleção-composta)
 - [Exemplo em C++](#exemplo-em-c)
 <!-- toc -->
 

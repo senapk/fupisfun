@@ -1,18 +1,18 @@
 # Introdução aos Tipos de Dados em C++
 
 <!-- toc -->
-- [Introdução aos Tipos de Dados em C++](#introdução-aos-tipos-de-dados-em-c)
-  - [Tipos de Dados Fundamentais (ou Primitivos)](#tipos-de-dados-fundamentais-ou-primitivos)
-  - [Tipos Integrais](#tipos-integrais)
-    - [`int`](#int)
-    - [`char`](#char)
-  - [Tipos de Ponto Flutuante](#tipos-de-ponto-flutuante)
-    - [`float`](#float)
-    - [`double`](#double)
-    - [Curiosidade](#curiosidade)
-  - [Tipo Booleano](#tipo-booleano)
-    - [`bool`](#bool)
-  - [Uso do `auto` para inferir tipo](#uso-do-auto-para-inferir-tipo)
+- [Tipos de Dados Fundamentais (ou Primitivos)](#tipos-de-dados-fundamentais-ou-primitivos)
+- [Tipos Integrais](#tipos-integrais)
+  - [`int`](#int)
+  - [`char`](#char)
+- [Tipos de Ponto Flutuante](#tipos-de-ponto-flutuante)
+  - [`float`](#float)
+  - [`double`](#double)
+- [Tipo Booleano](#tipo-booleano)
+  - [`bool`](#bool)
+- [Uso do `auto` para inferir tipo](#uso-do-auto-para-inferir-tipo)
+  - [Curiosidade 1](#curiosidade-1)
+- [Curiosidade 2](#curiosidade-2)
 <!-- toc -->
 
 Em C++, os tipos de dados são fundamentais para a definição dos valores que uma variável pode armazenar e como esses valores serão tratados pelo programa. C++ possui diversos tipos de dados, cada um com características específicas. Nesta aula, vamos explorar os principais tipos de dados disponíveis na linguagem e a inferência de tipos usando o `auto`.
@@ -78,31 +78,7 @@ Exemplo de declaração e atribuição de uma variável do tipo double:
 double pi = 3.14159265359;
 ```
 
-Double é o valor padrão de ponto flutuante e na dúvida, use sempre double.
-
-### Curiosidade
-
-Só por curiosidade, o código abaixo mostra como o número 0.1 é representado em memória usando `float` e `double`.
-
-```cpp
-#include <iostream>
-#include <iomanip>
-
-int main (){
-    std::cout << std::fixed;
-    std::cout << "float : " << std::setprecision(20) << (float) 0.1 << '\n';
-    std::cout << "double: " << std::setprecision(20) << (double) 0.1 << '\n';
-}
-```
-
-O resultado é:
-
-```txt
-float : 0.10000000149011611938
-double: 0.10000000000000000555
-```
-
-Dá pra ver como é a aproximação do número 0.1 em cada tipo de dado e como o tipo `double` é mais preciso.
+Double é o valor padrão de ponto flutuante e, na dúvida, use sempre double.
 
 ## Tipo Booleano
 
@@ -128,6 +104,46 @@ Exemplo:
 auto idade = 25; // O tipo da variável idade será inferido como int.
 auto altura = 1.75; // O tipo da variável altura será inferido como double.
 auto largura = 1.8f; // O tipo da variável largura será inferido como float.
-auto eh_par = true; // O tipo da variável eh_par será inferido como bool.
+auto eh_par = false; // O tipo da variável eh_par será inferido como bool.
 auto letra = 'a'; // O tipo da variável letra será inferido como char.
+```
+
+### Curiosidade 1
+
+Só por curiosidade, o código abaixo mostra como o número 0.1 é representado em memória usando `float` e `double`.
+
+```cpp
+#include <iostream>
+#include <iomanip>
+
+int main (){
+    std::cout << std::fixed;
+    std::cout << "float : " << std::setprecision(20) << (float) 0.1 << '\n';
+    std::cout << "double: " << std::setprecision(20) << (double) 0.1 << '\n';
+}
+```
+
+O resultado é:
+
+```txt
+float : 0.10000000149011611938
+double: 0.10000000000000000555
+```
+
+Dá pra ver como é a aproximação do número 0.1 em cada tipo de dado e como o tipo `double` é mais preciso.
+
+## Curiosidade 2
+
+A função `sizeof` pode ser utilizada para descobrir o tamanho em bytes de um tipo de dado. O código abaixo vai imprimir o tamanho em bytes de cada tipo de dado:
+
+```cpp
+#include <iostream>
+
+int main() {
+  std::cout << "int : " << sizeof(int) << '\n';
+  std::cout << "char: " << sizeof(char) << '\n';
+  std::cout << "float: " << sizeof(float) << '\n';
+  std::cout << "double: " << sizeof(double) << '\n';
+  std::cout << "bool: " << sizeof(bool) << '\n';
+}
 ```

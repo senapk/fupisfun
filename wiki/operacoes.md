@@ -1,9 +1,11 @@
 # Operações aritméticas
 
+<!-- toc -->
 - [Introdução](#introdução)
 - [Operadores Básicos](#operadores-básicos)
 - [Ordem de Precedência](#ordem-de-precedência)
 - [Exemplos](#exemplos)
+<!-- toc -->
 
 ## Introdução
 
@@ -40,8 +42,6 @@ Vamos ver alguns exemplos de como utilizar os operadores aritméticos em C++:
 ```cpp
 #include <iostream>
 
-using namespace std;
-
 int main() {
     int a = 10, b = 20, c = 5;
 
@@ -56,13 +56,13 @@ int main() {
     int resultado1 = a + b * c;      // Resultado: 60 (pois a multiplicação é realizada antes)
     int resultado2 = (a + b) * c;    // Resultado: 150 (pois a adição é realizada antes)
 
-    cout << "Soma: " << soma << endl;
-    cout << "Subtração: " << subtracao << endl;
-    cout << "Multiplicação: " << multiplicacao << endl;
-    cout << "Divisão: " << divisao << endl;
-    cout << "Resto: " << resto << endl;
-    cout << "Resultado1: " << resultado1 << endl;
-    cout << "Resultado2: " << resultado2 << endl;
+    std::cout << "Soma: " << soma << '\n';
+    std::cout << "Subtração: " << subtracao << '\n';
+    std::cout << "Multiplicação: " << multiplicacao << '\n';
+    std::cout << "Divisão: " << divisao << '\n';
+    std::cout << "Resto: " << resto << '\n';
+    std::cout << "Resultado1: " << resultado1 << '\n';
+    std::cout << "Resultado2: " << resultado2 << '\n';
 
     return 0;
 }

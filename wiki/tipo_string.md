@@ -15,6 +15,10 @@ int main() {
 
 ```
 
+como ler uma palavra
+
+como ler a linha inteira
+
 a string é uma classe, possui métodos, pode ser alterada, será estudada mais a fundo no futuro.
 
 Por enquanto, se você quiser guardar um texto numa variável, use string.

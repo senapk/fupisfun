@@ -3,11 +3,7 @@
 <!-- toc -->
 <!-- toc -->
 
-- [x] Como instalar
-- [ ] Como configurar
-- [ ] Como utilizar
-
-O **Git Bash** é um terminal que permite utilizar comandos do **Git** no Windows. É uma ferramenta útil, já que o Git muito utilizado no curso da sua graduação.
+O **Git Bash** é um terminal que permite utilizar comandos do **Git** no Windows e, mais importante: é um **bash**. Bash é um interpretador de comandos que permite executar comandos no terminal, como `ls`, `cd`, `mkdir`, etc. É um terminal muito mais poderoso que o **cmd** do Windows.
 
 ## Como instalar
 
@@ -19,9 +15,11 @@ O **Git Bash** é um terminal que permite utilizar comandos do **Git** no Window
 
   - Após, siga com a instalação normalmente, usando os padrões.
 
-## Como configurar
+<!-- ## Como configurar
 
 O **Git Bash** necessita de uma configuração inicial para que possa ser utilizado. Para isso, siga os seguintes passos:
+
+### Abrindo pela primeira vez
 
 - Para abrir o Git Bash, basta clicar com o botão direito em uma pasta e selecionar a opção `Git Bash Here`:
 
@@ -52,4 +50,5 @@ O **Git Bash** necessita de uma configuração inicial para que possa ser utiliz
     ![Imagem](https://github.com/senapk/fupisfun/assets/103089400/44017f29-84af-4cb8-8557-73f46929912a)
 
   - Observe o nome e o email que você colocou.
-  
+
+### Primeiro     -->

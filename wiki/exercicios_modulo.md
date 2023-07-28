@@ -1,12 +1,13 @@
 # Exercícios de módulo
 
 <!-- toc -->
-- [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
-- [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
-- [Exercício 3: Manipulação de índices em arrays](#exercício-3-manipulação-de-índices-em-arrays)
-- [Exercício 4: Calendários e datas](#exercício-4-calendários-e-datas)
-  - [Fórmula de Zeller](#fórmula-de-zeller)
-  - [Utilizando a fórmula de Zeller](#utilizando-a-fórmula-de-zeller)
+- [Exercícios de módulo](#exercícios-de-módulo)
+  - [Exercício 1: Verificando se um número é par ou ímpar](#exercício-1-verificando-se-um-número-é-par-ou-ímpar)
+  - [Exercício 2: Repetições cíclicas](#exercício-2-repetições-cíclicas)
+  - [Exercício 3: Manipulação de índices em arrays](#exercício-3-manipulação-de-índices-em-arrays)
+  - [Exercício 4: Calendários e datas](#exercício-4-calendários-e-datas)
+    - [Fórmula de Zeller](#fórmula-de-zeller)
+    - [Utilizando a fórmula de Zeller](#utilizando-a-fórmula-de-zeller)
 <!-- toc -->
 
 ## Exercício 1: Verificando se um número é par ou ímpar
@@ -77,7 +78,7 @@ int main() {
 
 ### Fórmula de Zeller
 
-A **fórmula de Zeller** é um algoritmo matemático desenvolvido pelo matemático alemão **Christian Zeller** no século XIX. Essa fórmula é usada para calcular o dia da semana correspondente a uma data específica, ou seja, determinar se uma data cai em uma segunda-feira, terça-feira, etc. O resultado é um número de 0 a 6, onde 0 representa o domingo, 1 a segunda-feira e assim por diante.
+A **fórmula de Zeller** é um algoritmo matemático desenvolvido pelo matemático alemão **Christian Zeller** no século XIX. Essa fórmula é usada para calcular o dia da semana correspondente a uma data específica, ou seja, determinar se uma data cai em uma segunda-feira, terça-feira, etc. O resultado é um número de 0 a 6, onde 0 representa o sábado, 1 o domingo e assim por diante.
 
 Aqui está a fórmula de Zeller:
 
@@ -127,10 +128,8 @@ int main() {
     // Fórmula de Zeller para calcular o dia da semana:
     int diaDaSemana = (dia + ((mes + 1) * 13 / 5) + anoDoSeculo + (anoDoSeculo / 4) + (seculo / 4) + (5 * seculo)) % 7;
 
-    // Ajustando o resultado para valores positivos de 0 a 6 (domingo a sábado).
-    if (diaDaSemana < 0) {
-        diaDaSemana += 7;
-    }
+    // Ajustando o resultado para valores positivos de 0 a 6 (sábado a sexta-feira).
+    diaDaSemana = (diaDaSemana + 7) % 7;
 
     // Exibindo o resultado em texto.
     std::string diasDaSemana[] = {"Sábado", "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"};

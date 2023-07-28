@@ -29,4 +29,4 @@ Após iniciar o debug, irá aparecer uma barra na parte superior da tela:
 
 ![Image](https://github.com/senapk/fupisfun/assets/103089400/682009e2-87f2-43ea-a924-e50c4c5d1ee1)
 
-Você pode utilizar os botões para **avançar** ou **voltar** o código, **continuar** a execução ou **parar** a depuração. Você também pode usar o **terminal** para executar comandos. Teste por você mesmo!
+Você pode utilizar os botões para **avançar** ou **voltar** o código, **continuar** a execução ou **parar** a depuração.

@@ -66,6 +66,7 @@ O **Bash** tem uma sintaxe muito simples. Para executar um comando, basta escrev
   ![GIF](https://github.com/senapk/fupisfun/assets/103089400/d7494f0b-8fa5-4297-8e4d-6d89dbe92587)
 
 - `clear`: limpa o terminal
+
   ![GIF](https://github.com/senapk/fupisfun/assets/103089400/8cc50e26-30ab-44b8-9b9c-ddd1f7c2a4a0)
 
 - `exit`: fecha o terminal

@@ -32,7 +32,6 @@
 - Aula 05: Operações Básicas
   - [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
   - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
-  - [ ] [Operador ternário](wiki/operador_ternario.md)
   - [x] [Entrada de dados básica com cin](wiki/entrada_dados.md)
   - [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
 
@@ -42,6 +41,7 @@
   - [x] [Atribuição e incremento](wiki/atribuicao_incremento.md)
   - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
   - [x] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
+  - [ ] [Operador ternário](wiki/operador_ternario.md)
 - Aula 07: Debugando
   - [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
   - [x] [Debugando o primeiro código](wiki/debugando.md)

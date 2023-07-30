@@ -13,7 +13,7 @@
   - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
   - [x] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
   - [x] [IDE: Visual Studio Code (vscode)](wiki/configure_vscode.md)
-  - [ ] [Uso do Bash e Instalação do Git Bash](wiki/configure_bash_and_git_bash.md)
+  - [x] [Uso do Bash e Instalação do Git Bash](wiki/configure_bash_and_git_bash.md)
   - [ ] [IDE: Replit](wiki/configure_replit.md)
 - Aula 03: Primeiro código
   - [x] [Primeiro código](wiki/primeiro_codigo.md)
@@ -33,15 +33,15 @@
   - [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
   - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
   - [ ] [Operador ternário](wiki/operador_ternario.md)
-  - [ ] [Entrada de dados básica com cin](wiki/entrada_dados.md)
+  - [x] [Entrada de dados básica com cin](wiki/entrada_dados.md)
   - [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
 
 ### Bloco 02 - Seleção
 
 - Aula 06: Seleção Básica
-  - [ ] [Atribuição e incremento](wiki/atribuicao_incremento.md)
+  - [x] [Atribuição e incremento](wiki/atribuicao_incremento.md)
   - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
-  - [ ] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
+  - [x] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
 - Aula 07: Debugando
   - [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
   - [x] [Debugando o primeiro código](wiki/debugando.md)
@@ -49,7 +49,7 @@
   - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
   - [ ] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 - Aula 09: Técnicas de seleção II
-  - [ ] [switch case](wiki/seleção_switch_case.md)
+  - [x] [switch case](wiki/seleção_switch_case.md)
   - [x] [operador de módulo](wiki/operador_modulo.md)
   - [x] [exercícios de módulo](wiki/exercicios_modulo.md)
 

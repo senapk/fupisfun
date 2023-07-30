@@ -1,6 +1,9 @@
 # Atribuição e incremento
 
 <!-- toc -->
+- [Introdução](#introdução)
+- [Operadores de Atribuição](#operadores-de-atribuição)
+- [Operadores de Incremento e Decremento](#operadores-de-incremento-e-decremento)
 <!-- toc -->
 
 ## Introdução
@@ -64,4 +67,18 @@ int d = ++c; // Primeiro c é incrementado e depois d recebe o valor
 int e = 5;
 int f = e++; // f recebe o valor de e (5) e depois o incremento acontece
 // e é igual a 6, mas f é igual a 5
+```
+
+O código acima é interpretado pelo compilador como:
+
+```cpp
+int c = 5;
+
+//int d = ++c; //incrementa antes e usa depois
+c += 1; int d = c;
+
+
+int e = 5;
+//int f = e++;  //usa antes e incrementa depois
+int f = e; e += 1;
 ```

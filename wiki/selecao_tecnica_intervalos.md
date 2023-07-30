@@ -3,8 +3,10 @@
 <!-- toc -->
 - [Introdução](#introdução)
 - [Como Implementar a Seleção Intervalada](#como-implementar-a-seleção-intervalada)
-- [Exemplo da Classificação Faixa Etária](#exemplo-da-classificação-de-faixa-etária)
+- [Exemplo da Classificação de Faixa Etária](#exemplo-da-classificação-de-faixa-etária)
 - [Implementação em C++](#implementação-em-c)
+- [Código Equivalente](#código-equivalente)
+- [Programa Redundante](#programa-redundante)
 <!-- toc -->
 
 ## Introdução
@@ -55,11 +57,12 @@ Seguindo os passos de implementação citados:
 3. **Realizar a seleção**:
 
 Uma maneira de implementar essas condições seria se aproveitar do fluxo da
-esturtura de seleção `if-else`. Tenha como exemplo o trecho de código em
+estrutura de seleção `if-else`. Tenha como exemplo o trecho de código em
 c++ abaixo:
 
 ```c++
 if (idade >= 60){
+    // Idoso
 } else if (idade >= 18){
     //Adulto
 } else if (idade >= 13){
@@ -152,4 +155,40 @@ Idoso
 ```c++
 Digite uma idade válida: -10
 Idade inválida
+```
+
+## Código Equivalente
+
+Esse trecho de código é equivalente ao código anterior, porém trata os intervalos de forma inversa. Neste caso, a condição inicial é `idade < 0` e a condição final é `idade >= 60`.
+
+```c++
+if (idade < 0){
+    std::cout << "Inválido" << "\n";
+} else if (idade < 13){
+    std::cout << "Criança" << "\n";
+} else if (idade < 18){
+    std::cout << "Adolescente" << "\n";
+} else if (idade < 60){
+    std::cout << "Adulto" << "\n";
+} else {
+    std::cout << "Idoso" << "\n";
+}
+```
+
+## Programa Redundante
+
+Mesmo que o código abaixo funcione, ele é redundante e não é uma boa prática de programação. A dupla verificação de `idade >= 0` é desnecessária, pois se a idade for menor que 0, o fluxo do programa não passará pela primeira condição e irá direto para a segunda condição.
+
+```c++
+    if (idade < 0){
+        std::cout << "Inválido" << "\n";
+    } else if (idade >= 0 && idade < 13){
+        std::cout << "Criança" << "\n";
+    } else if (idade >=13 && idade < 18){
+        std::cout << "Adolescente" << "\n";
+    } else if (idade >=18 && idade < 60){
+        std::cout << "Adulto" << "\n";
+    } else {
+        std::cout << "Idoso" << "\n";
+    }
 ```

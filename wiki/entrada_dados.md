@@ -5,7 +5,7 @@
 - [Como funciona o `cin`](#como-funciona-o-cin)
 - [Tipos de dados](#tipos-de-dados)
 - [Espaços e quebras de linha](#espaços-e-quebras-de-linha)
-- [Função `getline`](#função-getline)
+- [Função getline](#função-getline)
 - [Curiosidades](#curiosidades)
   - [Limpando o buffer](#limpando-o-buffer)
   - [Verificando se a leitura deu certo](#verificando-se-a-leitura-deu-certo)

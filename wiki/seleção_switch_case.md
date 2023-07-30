@@ -1,10 +1,10 @@
 # Estrutura de Seleção Switch
 
 <!-- toc -->
-- [Introdução](#introdução)
-- [Funcionamento do switch case](#funcionamento-do-switch-case)
-- [Utilização do switch case](#utilização-do-switch-case)
-- [Exemplo em C++](#exemplo-em-c)
+- [**Introdução**](#introdução)
+- [**Funcionamento do `switch case`**](#funcionamento-do-switch-case)
+- [**Utilização do `switch case`**](#utilização-do-switch-case)
+- [**Exemplo em C++:**](#exemplo-em-c)
 <!-- toc -->
 
 ## **Introdução**

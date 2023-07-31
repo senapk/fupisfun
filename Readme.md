@@ -56,7 +56,7 @@
 ### Bloco 03 - Função
 
 - Aula 10:
-  - [ ] [Variáveis globais e locais](wiki/variaveis_globais_e_locais.md)
+  - [ ] [Variáveis locais e globais](wiki/variaveis_locais_e_globais.md)
   - [ ] Escopo e tempo de vida
   - [ ] Sombreamento de variáveis
 - Aula 11:

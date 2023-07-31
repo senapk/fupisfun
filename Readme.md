@@ -49,22 +49,22 @@
   - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
   - [ ] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 - Aula 09: Técnicas de seleção II
-  - [x] [switch case](wiki/seleção_switch_case.md)
-  - [x] [operador de módulo](wiki/operador_modulo.md)
-  - [x] [exercícios de módulo](wiki/exercicios_modulo.md)
+  - [x] [Switch case](wiki/seleção_switch_case.md)
+  - [x] [Operador de módulo](wiki/operador_modulo.md)
+  - [x] [Exercícios de módulo](wiki/exercicios_modulo.md)
 
 ### Bloco 03 - Função
 
 - Aula 10:
-  - Variáveis globais e locais.
-  - Escopo e tempo de vida
-  - Sombreamento de variáveis
+  - [ ] Variáveis globais e locais
+  - [ ] Escopo e tempo de vida
+  - [ ] Sombreamento de variáveis
 - Aula 11:
-  - Funções: parâmetros e retornos
-  - retornando no meio da função
-  - Debugando em funções
-  - Variáveis estáticas em funções
-  - valores default em funções
+  - [ ] [Funções: parâmetros e retornos](wiki/funcoes_parametros_e_retorno.md)
+  - [ ] Retornando no meio da função
+  - [ ] Debugando em funções
+  - [ ] Variáveis estáticas em funções
+  - [ ] Valores default em funções
 
 ### Bloco 04 - Repetição
 

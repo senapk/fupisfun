@@ -1,18 +1,18 @@
 # Variáveis Locais e Globais
 
 <!-- toc -->
-- [Variáveis Locais e Globais](#variáveis-locais-e-globais)
-  - [Introdução](#introdução)
-  - [Variáveis Locais](#variáveis-locais)
-    - [Escopo de Bloco](#escopo-de-bloco)
-    - [Variáveis Locais em Blocos Aninhados](#variáveis-locais-em-blocos-aninhados)
-    - [Variáveis Locais Com o Mesmo Nome](#variáveis-locais-com-o-mesmo-nome)
-    - [Duração de Armazenamento Automático](#duração-de-armazenamento-automático)
-  - [Variáveis Globais](#variáveis-globais)
-    - [Escopo de Arquivo](#escopo-de-arquivo)
-    - [Variáveis Globais e Locais com o Mesmo Nome](#variáveis-globais-e-locais-com-o-mesmo-nome)
-    - [Duração de Armazenamento Estático](#duração-de-armazenamento-estático)
-  - [Melhores Práticas](#melhores-práticas)
+- [Introdução](#introdução)
+- [Variáveis Locais](#variáveis-locais)
+  - [Escopo de Bloco](#escopo-de-bloco)
+  - [Variáveis Locais em Blocos Aninhados](#variáveis-locais-em-blocos-aninhados)
+  - [Variáveis Locais Com o Mesmo Nome](#variáveis-locais-com-o-mesmo-nome)
+  - [Tempo de Vida Automático](#tempo-de-vida-automático)
+- [Variáveis Globais](#variáveis-globais)
+  - [Escopo de Arquivo](#escopo-de-arquivo)
+  - [Variáveis Globais e Locais com o Mesmo Nome](#variáveis-globais-e-locais-com-o-mesmo-nome)
+  - [Tempo de Vida Estático](#tempo-de-vida-estático)
+- [Melhores Práticas](#melhores-práticas)
+- [Curiosidades](#curiosidades)
 <!-- toc -->
 
 ## Introdução
@@ -65,7 +65,7 @@ int main() { // Início do bloco do main
 
 É possível ter variáveis locais com o mesmo nome em blocos diferentes. Apesar de terem o mesmo nome, essas variáveis são objetos diferentes e podem ter valores diferentes.
 
-Para resolver essa ambiguidade dos nomes, o compilador faz uma busca hierárquica nos escopos. Quando o compilador encontra uma variável, ele procura por uma variável com o mesmo nome dentro do escopo atual. Se ele não encontrar, ele procura no escopo anterior, e assim por diante. Se ele não encontrar em nenhum escopo, ele gera um erro de compilação.
+Quando uma variável é declarada em um bloco interno, e essa variável tem o mesmo nome de uma variável já existente em um escopo externo, ela "oculta" ou "sombra" a variável externa dentro desse bloco. Isso significa que, dentro do bloco interno, o nome da variável se refere à variável interna, e a variável externa fica temporariamente "escondida". A isso damos o nome de "sombreamento".
 
 Exemplo:
 
@@ -82,9 +82,9 @@ int main() { // Início do bloco do main
 } // Fim do bloco do main, a variável x (a de valor 2) é destruída
 ```
 
-### Duração de Armazenamento Automático
+### Tempo de Vida Automático
 
-As variáveis locais têm uma "duração de armazenamento automático", o que significa que elas são criadas quando o programa entra no bloco onde foram definidas e são destruídas quando o programa sai desse bloco. Isso acontece automaticamente, sem precisarmos nos preocupar em criar ou destruir essas variáveis manualmente.
+As variáveis locais têm um tempo de vida automático, o que significa que elas são criadas quando o bloco em que estão é executado e são destruídas quando o bloco termina de ser executado. Isso significa que, quando o bloco chega ao fim, a variável é destruída e não pode mais ser usada.
 
 Por exemplo:
 
@@ -125,7 +125,7 @@ int main() {
 
 Quando você tem variáveis globais e locais com o mesmo nome no seu programa, elas são tratadas como duas variáveis distintas, mesmo que tenham o mesmo nome. Isso acontece porque as variáveis globais e locais têm escopos diferentes.
 
-Se houver uma variável local com o mesmo nome, o compilador usará a variável local, pois o escopo mais interno possui prioridade.
+Aqui também ocorre o sombreamento, ou seja, a variável local "oculta" a variável global dentro do bloco em que ela está.
 
 Exemplo:
 
@@ -140,9 +140,9 @@ int main() {
 }
 ```
 
-### Duração de Armazenamento Estático
+### Tempo de Vida Estático
 
-As variáveis globais têm uma "duração de armazenamento estático", o que significa que elas são criadas quando o programa inicia e são destruídas quando o programa termina. Isso significa que as variáveis globais existem durante toda a execução do programa.
+As variáveis globais têm um tempo de vida estático, o que significa que elas são criadas quando o programa começa a ser executado e são destruídas quando o programa termina de ser executado. Isso significa que elas existem durante toda a execução do programa.
 
 ## Melhores Práticas
 
@@ -150,4 +150,39 @@ As variáveis globais têm uma "duração de armazenamento estático", o que sig
 
 - Evite variáveis globais. Elas podem ser acessadas de qualquer lugar do programa, o que pode tornar o código mais difícil de entender e depurar. Além disso, as variáveis globais podem ser modificadas por qualquer função, o que pode causar efeitos colaterais indesejados.
 
-- Evite variáveis globais com o mesmo nome de variáveis locais. Isso pode causar confusão e erros difíceis de encontrar.
+- Se precisar de variáveis globais, evite nomeá-las com o mesmo nome de variáveis locais. Isso pode causar confusão e erros difíceis de encontrar.
+
+## Curiosidades
+
+- Em C++, as variáveis globais são inicializadas com zero se não forem inicializadas explicitamente. Isso significa que, se você declarar uma variável global e não atribuir nenhum valor a ela, ela será inicializada com zero. Já as variáveis locais não são inicializadas com zero se não forem inicializadas explicitamente. Isso significa que, se você declarar uma variável local e não atribuir nenhum valor a ela, ela terá um valor indeterminado (lixo de memória).
+
+  - Exemplo:
+
+    ```cpp
+    #include <iostream>
+
+    int numeroGlobal; // Variável global não inicializada
+
+    int main() {
+        int numeroLocal; // Variável local não inicializada
+
+        std::cout << "Valor da variável global: " << numeroGlobal << '\n'; // 0
+        std::cout << "Valor da variável local: " << numeroLocal << '\n'; // Valor indeterminado
+    }
+    ```
+
+- As chaves que usamos no if e no for não fazem parte da sintaxe dessas estruturas de controle. Podemos utilizar as duas estruturas sem as chaves.
+
+  - Exemplo:
+
+    ```cpp
+    if (true)
+        std::cout << "Hello, world!\n";
+
+    for (int i = 0; i < 5; ++i)
+        std::cout << i << ' ';
+    ```
+
+    Porém, sem as chaves, apenas a primeira instrução após o if ou o for será executada. Se quisermos executar mais de uma instrução, precisamos criar um bloco e envolver as várias instruções com chaves.
+
+- Em C++, as variáveis globais são armazenadas em uma área de memória chamada "data segment" (segmento de dados), enquanto as variáveis locais são armazenadas em uma área de memória chamada "stack" (pilha). Isso significa que as variáveis globais são armazenadas em um local diferente das variáveis locais.

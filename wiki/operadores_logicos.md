@@ -1,16 +1,17 @@
 # Operadores lógicos
 
 <!-- toc -->
-- [Operador lógico AND (&&)](#operador-lógico-and-)
-- [Operador lógico OR (||)](#operador-lógico-or-)
-- [Operador lógico NOT (!)](#operador-lógico-not-)
+- [Operador lógico AND (`&&` ou `and`)](#operador-lógico-and--ou-and)
+- [Operador lógico OR (`||` ou `or`)](#operador-lógico-or--ou-or)
+- [Operador lógico NOT (`!` ou `not`)](#operador-lógico-not--ou-not)
+- [Operador lógico IGUAL (`==`) e DIFERENTE (`!=`)](#operador-lógico-igual--e-diferente-)
 - [Uso dos parênteses](#uso-dos-parênteses)
 - [Comparação dois a dois](#comparação-dois-a-dois)
 <!-- toc -->
 
 Em C++, os operadores lógicos são utilizados para realizar operações de lógica booleana em expressões condicionais. Existem três operadores lógicos principais: AND (&&), OR (||) e NOT (!). Esses operadores permitem combinar condições para criar expressões mais complexas.
 
-## Operador lógico AND (&&)
+## Operador lógico AND (`&&` ou `and`)
 
 O operador lógico AND retorna verdadeiro (true) apenas quando ambas as condições que ele conecta forem verdadeiras.
 
@@ -30,13 +31,21 @@ int main() {
         cout << "Não pode dirigir." << endl;
     }
 
+    //alternativamente pode-se usar a palavra-chave 'and'
+    
+    if (idade >= 18 and possuiCarteiraMotorista) {
+        cout << "Pode dirigir." << endl;
+    } else {
+        cout << "Não pode dirigir." << endl;
+    }
+
     return 0;
 }
 ```
 
 Neste exemplo, o programa verifica se a idade é maior ou igual a 18 e se possuiCarteiraMotorista é verdadeiro. Somente se ambas as condições forem verdadeiras, a mensagem "Pode dirigir." será exibida.
 
-## Operador lógico OR (||)
+## Operador lógico OR (`||` ou `or`)
 
 O operador lógico OR retorna verdadeiro (true) quando pelo menos uma das condições que ele conecta é verdadeira.
 
@@ -56,13 +65,21 @@ int main() {
         cout << "Não atende aos requisitos mínimos." << endl;
     }
 
+    //alternativamente pode-se usar a palavra-chave 'or'
+
+    if (temDiploma or experienciaProfissional) {
+        cout << "Atende aos requisitos mínimos." << endl;
+    } else {
+        cout << "Não atende aos requisitos mínimos." << endl;
+    }
+
     return 0;
 }
 ```
 
 Neste exemplo, o programa verifica se o candidato temDiploma ou experiência profissional. Se ao menos uma das condições for verdadeira, a mensagem "Atende aos requisitos mínimos." será exibida.
 
-## Operador lógico NOT (!)
+## Operador lógico NOT (`!` ou `not`)
 
 O operador lógico NOT inverte o valor de uma expressão. Ou seja, se a expressão é verdadeira, o operador NOT a torna falsa, e vice-versa.
 
@@ -81,11 +98,50 @@ int main() {
         cout << "Parabéns! Você tem desconto." << endl;
     }
 
+    //alternativamente pode-se usar a palavra-chave 'not'
+
+    if (not temCarteiraEstudante) {
+        cout << "Você precisa de uma carteira de estudante para obter desconto." << endl;
+    } else {
+        cout << "Parabéns! Você tem desconto." << endl;
+    }
+
     return 0;
 }
 ```
 
 Neste exemplo, o programa verifica se temCarteiraEstudante é falso (ou seja, o operador NOT inverte o valor). Se for o caso, a mensagem "Você precisa de uma carteira de estudante para obter desconto." será exibida.
+
+## Operador lógico IGUAL (`==`) e DIFERENTE (`!=`)
+
+O operador lógico IGUAL retorna verdadeiro (true) quando os valores comparados são iguais. O operador lógico DIFERENTE retorna verdadeiro (true) quando os valores comparados são diferentes (dã).~
+
+Exemplo:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int idade = 25;
+
+    if (idade == 18) {
+        cout << "Você tem 18 anos." << endl;
+    } else {
+        cout << "Você não tem 18 anos." << endl;
+    }
+
+    if (idade != 18) {
+        cout << "Você não tem 18 anos." << endl;
+    } else {
+        cout << "Você tem 18 anos." << endl;
+    }
+
+    return 0;
+}
+```
+
+Neste exemplo, o programa verifica se idade é igual a 18. Se for o caso, a mensagem "Você tem 18 anos." será exibida. Caso contrário, a mensagem "Você não tem 18 anos." será exibida.
 
 Esses operadores lógicos podem ser combinados para criar expressões condicionais mais complexas e flexíveis em programas C++.
 

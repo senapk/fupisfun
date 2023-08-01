@@ -91,7 +91,7 @@ int area = altura * largura;
 ## Tipos do Usuário
 
 - Nomes de Classes, Enum e Structs.
-  - utiliza SnakeCase.
+  - utiliza CamelCase.
   - inicializam em maiúscula.
 
 ```cpp

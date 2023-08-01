@@ -20,9 +20,8 @@ A plataforma do **Replit** é bem intuitiva e fácil de usar. Iremos fazer o pas
 ### Criando uma conta
 
 - Acesse o [site do Replit](https://replit.com/).
-- Clique em [Sign Up](https://replit.com/signup) 
+- Clique em [Sign Up](https://replit.com/signup)
 - Crie uma conta com seu e-mail ou com sua conta do Google.
-
 
 ![GIF](https://github.com/senapk/fupisfun/assets/103089400/e8289a9c-9339-425a-b46e-71746d9dd9bc)
 

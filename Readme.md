@@ -61,10 +61,10 @@
   - [ ] Sombreamento de variáveis
 - Aula 11:
   - [ ] [Funções: parâmetros e retornos](wiki/funcoes_parametros_e_retorno.md)
-  - [ ] Retornando no meio da função
+  - [ ] [Retornando no meio da função](wiki/retornando_no_meio_da_funcao.md)
   - [ ] Debugando em funções
-  - [ ] Variáveis estáticas em funções
-  - [ ] Valores default em funções
+  - [ ] [Variáveis estáticas em funções](wiki/variaveis_estaticas_em_funcoes.md)
+  - [ ] [Valores default em funções](wiki/valores_default_em_funcoes.md)
 
 ### Bloco 04 - Repetição
 

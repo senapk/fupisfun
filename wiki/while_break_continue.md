@@ -143,6 +143,37 @@ int main() {
 Neste exemplo, os números pares (2, 4, 6, 8 e 10) são ignorados pelo `continue`,
 enquanto os números ímpares (1, 3, 5, 7 e 9) são impressos no console.
 
+### Utilizando um loop infinito para ler entradas do usuário
+
+Na seção sobre [entrada de dados](entrada_dados.md) vimos algumas técnicas de uso do `cin`.
+
+- Podemos fazer um teste para saber se o `cin` conseguiu fazer a leitura corretamente.
+- Podemos usar o `cin.ignore()` para limpar o buffer de entrada.
+- Podemos usar o `cin.clear()` para destravar o `cin` caso ele tenha entrado em estado de erro.
+
+O código abaixo vai ficar em loop até o usuário digitar um número inteiro válido.
+
+```cpp
+#include <iostream>
+#include <limits> // std::numeric_limits
+
+int main() {
+    int value {};
+    while (true) {
+        std::cout << "Digite um número inteiro: ";
+        if (std::cin >> value) {
+            break;
+        }
+        std::cout << "Entrada inválida. Tente novamente." << '\n';
+        std::cin.clear(); //destrava o cin
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //limpa o buffer de entrada
+    }
+    std::cout << "Você digitou o número: " << value << '\n';
+}
+```
+
+O `std::numeric_limits<std::streamsize>::max()` indica que queremos limpar o buffer até o final da linha, não importa o tamanho da linha.
+
 ### Exemplo de Uso do `while(true)` com `break` e `continue`
 
 Vamos criar um exemplo onde pedimos ao usuário para **adivinhar** um número entre
@@ -152,14 +183,21 @@ digitando "0".
 
 ```cpp
 #include <iostream>
+#include <limits>
 
 int main() {
     int numeroSecreto = 42;
     int palpite;
 
     while (true) {
-        std::cout << "Digite um palpite (ou 0 para sair): ";
-        std::cin >> palpite;
+        std::cout << "Digite um palpite entre 1 e 50 (ou 0 para sair): ";
+
+        if (not (std::cin >> palpite)) { //digitou algo que não é um número
+            std::cout << "Entrada inválida. Tente novamente." << '\n';
+            std::cin.clear(); //destrava o cin
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //limpando tudo que foi escrito
+            continue; //voltando pro começo do loop
+        }
 
         if (palpite == 0) {
             std::cout << "Você desistiu. O número secreto era: ";
@@ -170,10 +208,8 @@ int main() {
         if (palpite == numeroSecreto) {
             std::cout << "Parabéns! Você acertou!" << '\n';
             break;
-        } else {
-            std::cout << "Tente novamente." << '\n';
-            continue;
         }
+        std::cout << "Tente novamente." << '\n';
     }
 
     return 0;

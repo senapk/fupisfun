@@ -56,7 +56,7 @@ int main() {
 
 ## Dica
 
-A maioria das IDEs tem algum atalho para indentar o código. No vscode, por exemplo, você pode selecionar o código e apertar `CTRL+K` seguido de `CTRL+F`. No Replit, você pode selecionar o código e apertar `CTRL+SHIFT+I`.
+A maioria das IDEs tem algum atalho para indentar o código. No vscode, por exemplo, você pode selecionar o código e apertar `CTRL+K` seguido de `CTRL+F`, ou `SHIFT + ALT + F`. No Replit, você pode selecionar o código e apertar `CTRL+SHIFT+I`.
 
 ## Tipos de indentação que existem
 

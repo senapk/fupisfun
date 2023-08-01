@@ -68,7 +68,7 @@
 ### Bloco 04 - Repetição
 
 - Aula 12
-  - while(true), continue e break
+  - [ ] [while(true), continue e break](wiki/while_break_continue.md)
   - for básico
 - Aula 13
   - geração de números aleatórios com Mersenne Twister

@@ -142,11 +142,15 @@ int main() {
 
 ## O Namespace `std`
 
-Quando o C++ foi originalmente projetado, todos os identificadores na biblioteca padrão do C++ (incluindo std::cin e std::cout) estavam disponíveis para serem usados sem o prefixo std:: (eles faziam parte do espaço de nomes global). No entanto, isso significava que qualquer identificador na biblioteca padrão poderia entrar em conflito potencialmente com qualquer nome que você escolhesse para seus próprios identificadores (também definidos no espaço de nomes global). Código que estava funcionando poderia de repente ter um conflito de nomes quando você incluísse um novo arquivo da biblioteca padrão. Ou pior, programas que compilavam em uma versão do C++ podem não compilar em uma versão futura do C++, pois novos identificadores introduzidos na biblioteca padrão poderiam entrar em conflito com código já escrito. Por isso, o C++ moveu todas as funcionalidades da biblioteca padrão para um espaço de nomes chamado "std" (abreviação de standard, que significa padrão).
+Quando o C++ foi originalmente projetado, todos os identificadores na biblioteca padrão do C++ (incluindo `std::cin` e `std::cout`) estavam disponíveis para serem usados sem o prefixo `std::` (eles faziam parte do espaço de nomes global).
 
-Acontece que o nome std::cout na verdade não é std::cout. Na verdade, ele é apenas cout, e std é o nome do espaço de nomes ao qual o identificador cout pertence. Porque cout é definido no espaço de nomes std, o nome cout não entrará em conflito com quaisquer objetos ou funções com o nome cout que criarmos no espaço de nomes global.
+No entanto, isso significava que qualquer identificador na biblioteca padrão poderia entrar em conflito potencialmente com qualquer nome que você escolhesse para seus próprios identificadores (também definidos no espaço de nomes global).
 
-Da mesma forma, ao acessar um identificador definido em um namespace (por exemplo, std::cout), você precisa informar ao compilador que estamos procurando um identificador definido dentro do namespace (std).
+Código que estava funcionando poderia de repente ter um conflito de nomes quando você incluísse um novo arquivo da biblioteca padrão. Ou pior, programas que compilavam em uma versão do C++ podem não compilar em uma versão futura do C++, pois novos identificadores introduzidos na biblioteca padrão poderiam entrar em conflito com código já escrito. Por isso, o C++ moveu todas as funcionalidades da biblioteca padrão para um espaço de nomes chamado "std" (abreviação de standard, que significa padrão).
+
+Acontece que o nome `std::cout` na verdade não é `std::cout`. Na verdade, ele é apenas `cout`, e `std` é o nome do espaço de nomes ao qual o identificador cout pertence. Porque `cout` é definido no espaço de nomes `std`, o nome `cout` não entrará em conflito com quaisquer objetos ou funções de mesmo nome que criarmos no espaço de nomes global.
+
+Da mesma forma, ao acessar um identificador definido em um namespace (por exemplo, `std::cout`), você precisa informar ao compilador que estamos procurando um identificador definido dentro do namespace `std`.
 
 ## Usando `using namespace`
 

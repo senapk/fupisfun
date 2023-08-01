@@ -78,7 +78,7 @@
   - [Tabela ASC](wiki/tabela_asc2.md)
   - string, métodos de string, replace
   - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
-  - [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
+  - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
   - stringstream e retornando textos
 
 ### Bloco 05 - Listas

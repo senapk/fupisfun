@@ -56,7 +56,7 @@ std::cin >> idade;
 
 - **Utilize snake_case**
 
-Em Fundamentos de Programação usando c++, utilize o modo de nomenclatura snake_case. Ele consiste em utilizar letras minúsculas e depois o _ para separar as palavras.
+Em Fundamentos de Programação usando C++, utilize o modo de nomenclatura snake_case. Ele consiste em utilizar letras minúsculas e depois o `_` para separar as palavras.
 
 ```cpp
 int melhor_idade {0};

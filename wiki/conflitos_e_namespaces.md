@@ -1,13 +1,12 @@
 # Tratando Conflitos de Nomes com Namespaces
 
 <!-- toc -->
-- [Tratando Conflitos de Nomes com Namespaces](#tratando-conflitos-de-nomes-com-namespaces)
-  - [Introdução](#introdução)
-  - [Namespaces](#namespaces)
-  - [Namespaces Aninhados](#namespaces-aninhados)
-  - [O Namespace Global](#o-namespace-global)
-  - [O Namespace `std`](#o-namespace-std)
-  - [Usando `using namespace`](#usando-using-namespace)
+- [Introdução](#introdução)
+- [Namespaces](#namespaces)
+- [Namespaces Aninhados](#namespaces-aninhados)
+- [O Namespace Global](#o-namespace-global)
+- [O Namespace `std`](#o-namespace-std)
+- [Usando `using namespace`](#usando-using-namespace)
 <!-- toc -->
 
 ## Introdução

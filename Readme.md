@@ -57,7 +57,7 @@
 
 - Aula 10:
   - [ ] [Variáveis locais e globais](wiki/variaveis_locais_e_globais.md)
-  - [ ] [Tratando Conflitos de Nomes com Namespaces](wiki/conflitos_e_namespace.md)
+  - [ ] [Tratando Conflitos de Nomes com Namespaces](wiki/conflitos_e_namespaces.md)
 - Aula 11:
   - [ ] [Funções: parâmetros e retornos](wiki/funcoes_parametros_e_retorno.md)
   - [ ] [Retornando no meio da função](wiki/retornando_no_meio_da_funcao.md)

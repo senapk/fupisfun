@@ -43,7 +43,7 @@
 - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
 - [x] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
 - [x] [IDE: Visual Studio Code (vscode)](wiki/configure_vscode.md)
-- [ ] [IDE: Replit](wiki/configure_replit.md)
+- [x] [IDE: Replit](wiki/configure_replit.md)
 - [x] [Uso do Bash e Instalação do Git Bash](wiki/configure_bash_and_git_bash.md)
 
 ### Aula 03: Primeiro código
@@ -78,7 +78,7 @@
 - [x] [Atribuição e incremento](wiki/atribuicao_incremento.md)
 - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
 - [x] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
-- [ ] [Operador ternário](wiki/operador_ternario.md)
+- [x] [Operador ternário](wiki/operador_ternario.md)
 
 ### Aula 07: Debugando
 
@@ -88,7 +88,7 @@
 ### Aula 08: Técnicas de seleção I
 
 - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
-- [ ] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
+- [x] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 
 ### Aula 09: Técnicas de seleção II
 

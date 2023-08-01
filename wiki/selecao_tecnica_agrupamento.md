@@ -20,36 +20,54 @@ Abaixo, temos os exemplos dos conhecidos jogos "Par ou Ímpar" e "Jokenpô". Vam
 
 ### 1. **Par ou Ímpar**
 
-O jogo `Par ou Ímpar` é uma atividade lúdica que envolve duas pessoas. Cada jogador escolhe um número para mostrar e, em seguida, os números são somados. Um dos jogadores anuncia se a soma é `Par` ou `Ímpar` sem revelar o resultado exato. O outro jogador deve adivinhar se a soma é `Par` (se for divisível por 2) ou `Ímpar` (se não for divisível por 2).
+Seja um jogo entre dois jogadores. As entradas são:
 
+- Opção do primeiro jogador: "par" ou "impar";
+- Número do primeiro jogador.
+- Número do segundo jogador.
+
+Seu código deve informar quem ganhou o jogo.
 
 Exemplo abaixo na `linguagem c++`:
 
-
 ```c++
-if (numero % 2 == 0) {
-  std::cout << numero << " é um número par, jogador 1 venceu!" << std::endl;
-} else {
-  std::cout << numero << " é um número ímpar, jogador 2 venceu!" << std::endl;
+#include <iostream>
+
+int main() {
+    std::string opcao_jog1 {};
+    int num_jog1 {};
+    int num_jog2 {};
+
+    std::cin >> opcao_jog1 >> num_jog1 >> num_jog2;
+
+    int numero = num_jog1 + num_jog2;
+
+    // agora vamos agrupar TODOS os casos em que o jogador 1 venceu
+    if ((numero % 2 == 0 and opcao_jog1 == "par") or (numero % 2 != 0 and opcao_jog1 == "impar")) {
+        std::cout << "Jogador 1 venceu!" << std::endl;
+    } else {
+        std::cout << "Jogador 2 venceu!" << std::endl;
+    }
 }
 ```
 
-No código acima, a mensagem "é um número par, jogador 1 venceu!" apenas vai ser mostrada se
-a variável `numero` dividido por 2 obter resto 0. Caso contrário a mensagem mostrada será "é um número ímpar, jogador 2 venceu!"
+Observe que o jogador 1 só ganha se a opção escolhida for igual ao resultado da soma dos números ser par ou ímpar. Caso contrário, o jogador 2 ganha. Não precisamos verificar nenhum dos casos para o jogador 2, pois se o jogador 1 não ganhou, o jogador 2 ganhou.
 
 ### 2. **Jokenpô**
 
 O jogo `Jokenpô`, também conhecido como Pedra, Papel e Tesoura, é um jogo simples e popular entre duas pessoas. Cada jogador escolhe uma das três opções: "Pedra", "Papel" ou "Tesoura". As regras são: Pedra vence Tesoura, Tesoura vence Papel e Papel vence Pedra. Se ambos escolherem a mesma opção, é um empate.
 
-Exemplo abaixo na `linguagem c++`:
+Novamente vamos agrupar os casos em que o jogador 1 venceu:
 
 ```c++
 if (jogador1 == jogador2) {
-  std::cout << "Empate!" << std::endl;
-} else if ((jogador1 == "pedra" && jogador2 == "tesoura") || (jogador1 == "papel" && jogador2 == "pedra") || (jogador1 == "tesoura" && jogador2 == "papel")) {
-  std::cout << "Jogador 1 venceu!" << std::endl;
+    std::cout << "Empate!" << std::endl;
+} else if ((jogador1 == "pedra"   and jogador2 == "tesoura") or 
+           (jogador1 == "papel"   and jogador2 == "pedra") or 
+           (jogador1 == "tesoura" and jogador2 == "papel")) {
+    std::cout << "Jogador 1 venceu!" << std::endl;
 } else {
-  std::cout << "Jogador 2 venceu!" << std::endl;
+    std::cout << "Jogador 2 venceu!" << std::endl;
 }
 ```
 
@@ -67,7 +85,7 @@ Caso contrário, será exibida a mensagem "Jogador 2 venceu!"
 
 Em conclusão, exploramos os exemplos dos jogos `Par ou Ímpar` e `Jokenpô` (Pedra, Papel e Tesoura) para ilustrar o uso das técnicas de estruturas condicionais em C++.
 
-O jogo `Par ou Ímpar` nos mostrou como utilizar a estrutura condicional `if` e `else` para tomar decisões com base em uma condição simples: a paridade de um número. A partir disso, pudemos verificar se um número é par ou ímpar e, assim, determinar o vencedor do jogo com base nas escolhas feitas pelos jogadores.
+No par ou ímpar, utilizamos a técnica de agrupamento de estruturas condicionais aninhadas para resolver o problema de forma mais eficiente e elegante.
 
 Por sua vez, o jogo `Jokenpô` revelou a importância do agrupamento de estruturas condicionais aninhadas. Neste exemplo, utilizamos múltiplas instruções `if` e `else` encadeadas para comparar as escolhas dos jogadores e decidir o vencedor de acordo com as regras do jogo.
 

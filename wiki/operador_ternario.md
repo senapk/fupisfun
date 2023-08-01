@@ -43,3 +43,11 @@ std::string resultado = (nota >= 60) ? (nota >= 90 ? "excelente" : "aprovado") :
 Nesse caso, a variável `resultado` receberá o valor "excelente" se a nota for maior ou igual a 90, "aprovado" se a nota for maior ou igual a 60, e "reprovado" caso contrário.
 
 Note que o aninhamento do operador adiciona uma certa ilegibilidade ao código, por isso, quando precisar de condições mais complexas considere usar um [bloco condicional](../wiki/selecao_if_else.md).
+
+## Regras
+
+O retorno do ternário tem que ser do mesmo tipo nas duas saídas.
+
+```cpp
+std::cout << (4 > 5 ? "maior" : 0) << std::endl; // erro pois "maior" eh string e 0 eh int
+```

@@ -51,7 +51,10 @@
 - [x] [Primeiro código](wiki/primeiro_codigo.md)
 - [x] [Compilando e Executando](wiki/compilando.md)
 - [x] [Segundo código](wiki/segundo_codigo.md)
+- [x] [Guia de estilo de escrita](wiki/guia_de_estilo.md)
+- [x] [Aprenda a indentar](wiki/indentacao.md)
   
+
 ### Aula 04: Entendendo melhor os tipos
 
 - [x] [Tipos de dados primitivos](wiki/tipos_primitivos.md)
@@ -61,8 +64,6 @@
 - [x] [Variáveis](wiki/variaveis.md): Boas práticas
 - [x] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
 - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)
-- [x] [Guia de estilo de escrita](wiki/guia_de_estilo.md)
-- [x] [Aprenda a indentar](wiki/indentacao.md)
 
 ### Aula 05: Operações Básicas
 
@@ -70,6 +71,18 @@
 - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
 - [x] [Entrada de dados básica com cin](wiki/entrada_dados.md)
 - [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
+- [x] [Impressão formatada](wiki/impressao_formatada.md)
+
+<details><summary> Exercícios </summary>
+- Resolvidos
+  - [@000 Operações Básicas](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
+- Classe
+  - [@002 Pintando a casa](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
+- Casa
+  - [@003 Opala Bebedor](https://github.com/qxcodefup/arcade/blob/master/base/003/Readme.md)
+  - [@196 Comprando TV Parcelada](https://github.com/qxcodefup/arcade/blob/master/base/196/Readme.md)
+
+</details>
 
 ## Bloco - Seleção
 
@@ -82,7 +95,6 @@
 
 ### Aula 07: Debugando
 
-- [x] [Impressão formatada](wiki/impressao_formatada.md) Casas decimais, alinhamento e zeros à esquerda.
 - [x] [Debugando o primeiro código](wiki/debugando.md)
 
 ### Aula 08: Técnicas de seleção I

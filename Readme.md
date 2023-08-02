@@ -117,7 +117,7 @@
 ### Aula 11 - Funções II
 
 - [ ] [Retornando no meio da função](wiki/retornando_no_meio_da_funcao.md)
-- [ ] Debugando em funções
+- [ ] [Debugando em funções](wiki/debugando_em_funcoes.md)
 - [ ] [Variáveis estáticas em funções](wiki/variaveis_estaticas_em_funcoes.md)
 - [ ] [Valores default em funções](wiki/valores_default_em_funcoes.md)
 
@@ -151,8 +151,8 @@
 
 - Aula 14
   - [Tabela ASC](wiki/tabela_asc2.md)
+  - [Manipulação de caracteres](wiki/manipulacao_caracteres.md)
   - [Métodos da classe string](wiki/metodos_string.md)
-  - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
   - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
   - stringstream e retornando textos
   

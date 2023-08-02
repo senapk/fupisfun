@@ -19,7 +19,7 @@ Na programação, lidar com caracteres é uma parte fundamental, seja para proce
 
 ## Convertendo caractere para inteiro e vice-versa
 
-Em C++, os caracteres são representados por valores numéricos de acordo com a tabela ASCII, como já visto no tópico anterior anterior. Isso permite que você converta facilmente um caractere em um valor inteiro (código ASCII) e vice-versa. A conversão é feita usando a conversão de tipo (casting).
+Em C++, os caracteres são representados por valores numéricos de acordo com a tabela ASCII, como já visto no tópico anterior. Isso permite que você converta facilmente um caractere em um valor inteiro (código ASCII) e vice-versa. A conversão é feita usando a conversão de tipo (casting).
 
 Por exemplo, para converter o caractere 'A' em um inteiro, você pode fazer o seguinte:
 

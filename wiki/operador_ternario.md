@@ -4,6 +4,7 @@
 - [Introdução](#introdução)
 - [Sintaxe do Operador Ternário](#sintaxe-do-operador-ternário)
 - [Utilizando o Operador Ternário](#utilizando-o-operador-ternário)
+- [Regras](#regras)
 <!-- toc -->
 
 ## Introdução

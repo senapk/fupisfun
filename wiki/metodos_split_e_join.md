@@ -1,6 +1,8 @@
 # Métodos `split()` e `join()`
 
 <!-- toc -->
+- [Método `split()`](#método-split)
+- [Método `join()`](#método-join)
 <!-- toc -->
 
 Os métodos `split()` e `join()` são métodos de string que permitem quebrar uma string em várias strings menores e juntar várias strings em uma única string, respectivamente.

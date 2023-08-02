@@ -2,7 +2,7 @@
 
 <!-- toc -->
 - [Introdução](#introdução)
-- [Exemplo em C++](#exemplos-em-c)
+- [Exemplos em C++](#exemplos-em-c)
   - [1. **Par ou Ímpar**](#1-par-ou-ímpar)
   - [2. **Jokenpô**](#2-jokenpô)
 - [Considerações Finais](#considerações-finais)

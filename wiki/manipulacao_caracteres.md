@@ -59,17 +59,24 @@ int main() {
 
 ## Funções da biblioteca `<cctype>`
 
-A biblioteca `<cctype>` fornece um conjunto de funções que ajudam a verificar e manipular caracteres. Para usá-la, basta incluir a biblioteca no início do seu programa:
+A biblioteca `<cctype>` fornece um conjunto de funções que ajudam a verificar e manipular caracteres. Para usá-la, basta incluir a biblioteca no início do seu programa com a diretiva `#include`:
+
+```c++
+#include <cctype>
+```
+
+> **Obs¹:** Você irá notar que todas as funções mencionadas aqui funcionam sem a inclusão da biblioteca `<cctype>`. Isso acontece porque a biblioteca `<iostream>` já inclui a biblioteca `<cctype>` por padrão. No entanto, é uma boa prática incluir a biblioteca `<cctype>` explicitamente, pois isso deixa o código mais legível e evita erros.
 
 ### isalpha() - Verifica se é uma letra
 
 A função isalpha() verifica se um caractere é uma letra (maiúscula ou minúscula). Ou seja, se o caractere está entre 'A' e 'Z' ou entre 'a' e 'z'.
 
 - **Parâmetros**: um caractere
-- **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
+- **Retorno**: `true` caso seja uma letra e `false` caso contrário
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char letra = 'A';
@@ -86,10 +93,11 @@ int main() {
 A função isdigit() verifica se um caractere é um dígito. Ou seja, se o caractere está entre '0' e '9'.
 
 - **Parâmetros**: um caractere
-- **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
+- **Retorno**: `true` caso seja um dígito e `false` caso contrário
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char digito = '5';
@@ -106,11 +114,11 @@ int main() {
 A função isalnum() verifica se um caractere é uma letra ou um dígito. Ou seja, se o caractere está entre 'A' e 'Z', entre 'a' e 'z' ou entre '0' e '9'.
 
 - **Parâmetros**: um caractere
-- **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
+- **Retorno**: `true` caso seja uma letra ou um dígito e `false` caso contrário
 
 ```c++
-
 #include <iostream>
+#include <cctype>
 
 int main() {
     char caractere1 = '5';
@@ -130,10 +138,11 @@ int main() {
 A função islower() verifica se um caractere é uma letra minúscula. Ou seja, se o caractere está entre 'a' e 'z'.
 
 - **Parâmetros**: um caractere
-- **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
+- **Retorno**: `true` caso seja uma letra minúscula e `false` caso contrário
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char letra = 'a';
@@ -150,10 +159,11 @@ int main() {
 A função isupper() verifica se um caractere é uma letra maiúscula. Ou seja, se o caractere está entre 'A' e 'Z'.
 
 - **Parâmetros**: um caractere
-- **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
+- **Retorno**: `true` caso seja uma letra maiúscula e `false` caso contrário
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char letra = 'A';
@@ -174,6 +184,7 @@ A função tolower() converte um caractere para minúscula. Ou seja, se o caract
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char letra = 'A';
@@ -191,6 +202,7 @@ A função toupper() converte um caractere para maiúscula. Ou seja, se o caract
 
 ```c++
 #include <iostream>
+#include <cctype>
 
 int main() {
     char letra = 'a';

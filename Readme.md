@@ -67,20 +67,18 @@
 
 ### Aula 05: Operações Básicas
 
-- Conteúdo
-  - [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
-  - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
-  - [x] [Entrada de dados básica com cin](wiki/entrada_dados.md)
-  - [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
-  - [x] [Impressão formatada](wiki/impressao_formatada.md)
-- Resolvidos
-  - [@000 Operações Básicas](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
-- Classe
-  - [@002 Pintando a casa](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
-- Casa
-  - [@003 Opala Bebedor](https://github.com/qxcodefup/arcade/blob/master/base/003/Readme.md)
-  - [@196 Comprando TV Parcelada](https://github.com/qxcodefup/arcade/blob/master/base/196/Readme.md)
-
+- [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
+- [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
+- [x] [Entrada de dados básica com cin](wiki/entrada_dados.md)
+- [ ] [Ferramenta de Testes: TKTest](wiki/configure_test_kit.md)
+- [x] [Impressão formatada](wiki/impressao_formatada.md)
+- [ ] Exercícios Resolvidos:
+ [@000 Operações Básicas](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
+- [ ] Exercícios Classe:
+ [@002 Pintando a casa](https://github.com/qxcodefup/arcade/blob/master/base/000/Readme.md)
+- [ ] Exercícios Casa:
+ [@003 Opala Bebedor](https://github.com/qxcodefup/arcade/blob/master/base/003/Readme.md),
+ [@196 Comprando TV Parcelada](https://github.com/qxcodefup/arcade/blob/master/base/196/Readme.md)
 
 ## Bloco - Seleção
 

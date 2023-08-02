@@ -139,7 +139,7 @@
 ## Bloco - Listas
 
 - Aula 15
-  - raw array
+  - [ ] [Array simples](wiki/array_simples.md)
 - Aula 16
   - vector
   - for indexado

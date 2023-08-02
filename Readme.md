@@ -56,7 +56,6 @@
 - [x] [Segundo código](wiki/segundo_codigo.md)
 - [x] [Guia de estilo de escrita](wiki/guia_de_estilo.md)
 - [x] [Aprenda a indentar](wiki/indentacao.md)
-  
 
 ### Aula 04: Entendendo melhor os tipos
 
@@ -156,9 +155,10 @@
   - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
   - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
   - stringstream e retornando textos
+  
 ## Bloco - Structs
 
-- Aula 18 
+- Aula 18
   - structs construtores com {}
 - Aula 19
   - introdução aos iteradores e sintaxe de iteradores

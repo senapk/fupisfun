@@ -46,7 +46,7 @@ int main() {
 ```
 
 > **Obs:** Realizamos um casting explícito, tanto de `char` para `int` quanto de `int` para `char`. Uma conversão implícita aconteceria se não tivéssemos especificado o tipo do casting.
-> 
+>
 > Por exemplo:
 >
 > ```c++
@@ -63,7 +63,7 @@ A biblioteca `<cctype>` fornece um conjunto de funções que ajudam a verificar 
 
 ### isalpha() - Verifica se é uma letra
 
-A função isalpha() verifica se um caractere é uma letra (maiúscula ou minúscula). Ou seja, se o caractere estiver entre 'A' e 'Z' ou entre 'a' e 'z'.
+A função isalpha() verifica se um caractere é uma letra (maiúscula ou minúscula). Ou seja, se o caractere está entre 'A' e 'Z' ou entre 'a' e 'z'.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
@@ -83,7 +83,7 @@ int main() {
 
 ### isdigit() - Verifica se é um dígito
 
-A função isdigit() verifica se um caractere é um dígito. Ou seja, se o caractere estiver entre '0' e '9'.
+A função isdigit() verifica se um caractere é um dígito. Ou seja, se o caractere está entre '0' e '9'.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
@@ -103,7 +103,7 @@ int main() {
 
 ### isalnum() - Verifica se é uma letra ou um dígito
 
-A função isalnum() verifica se um caractere é uma letra ou um dígito. Ou seja, se o caractere estiver entre 'A' e 'Z', entre 'a' e 'z' ou entre '0' e '9'.
+A função isalnum() verifica se um caractere é uma letra ou um dígito. Ou seja, se o caractere está entre 'A' e 'Z', entre 'a' e 'z' ou entre '0' e '9'.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
@@ -127,7 +127,7 @@ int main() {
 
 ### islower() - Verifica se é uma letra minúscula
 
-A função islower() verifica se um caractere é uma letra minúscula. Ou seja, se o caractere estiver entre 'a' e 'z'.
+A função islower() verifica se um caractere é uma letra minúscula. Ou seja, se o caractere está entre 'a' e 'z'.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
@@ -147,7 +147,7 @@ int main() {
 
 ### isupper() - Verifica se é uma letra maiúscula
 
-A função isupper() verifica se um caractere é uma letra maiúscula. Ou seja, se o caractere estiver entre 'A' e 'Z'.
+A função isupper() verifica se um caractere é uma letra maiúscula. Ou seja, se o caractere está entre 'A' e 'Z'.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, 0 para falso e qualquer outro valor para verdadeiro
@@ -167,7 +167,7 @@ int main() {
 
 ### tolower() - Converte para minúscula
 
-A função tolower() converte um caractere para minúscula. Ou seja, se o caractere estiver entre 'A' e 'Z', ele será convertido para seu equivalente entre 'a' e 'z'. Se o caractere já for uma letra minúscula, ele não será alterado.
+A função tolower() converte um caractere para minúscula. Ou seja, se o caractere está entre 'A' e 'Z', ele será convertido para seu equivalente entre 'a' e 'z'. Se o caractere já for uma letra minúscula, ele não será alterado.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, o código ASCII do caractere convertido
@@ -184,7 +184,7 @@ int main() {
 
 ### toupper() - Converte para maiúscula
 
-A função toupper() converte um caractere para maiúscula. Ou seja, se o caractere estiver entre 'a' e 'z', ele será convertido para seu equivalente entre 'A' e 'Z'. Se o caractere já for uma letra maiúscula, ele não será alterado.
+A função toupper() converte um caractere para maiúscula. Ou seja, se o caractere está entre 'a' e 'z', ele será convertido para seu equivalente entre 'A' e 'Z'. Se o caractere já for uma letra maiúscula, ele não será alterado.
 
 - **Parâmetros**: um caractere
 - **Retorno**: um inteiro, o código ASCII do caractere convertido

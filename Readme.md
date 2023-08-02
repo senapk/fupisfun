@@ -16,6 +16,9 @@
   - [Aula 10 - Funções I](#aula-10---funções-i)
   - [Aula 11 - Funções II](#aula-11---funções-ii)
 - [Bloco - Repetição](#bloco---repetição)
+  - [Aula 12 - While](#aula-12---while)
+  - [Aula 13 - for](#aula-13---for)
+  - [Aula - Números Aleatórios](#aula---números-aleatórios)
 - [Bloco - Listas](#bloco---listas)
 - [Bloco - Texto](#bloco---texto)
 - [Bloco - Structs](#bloco---structs)
@@ -149,7 +152,7 @@
 
 - Aula 14
   - [Tabela ASC](wiki/tabela_asc2.md)
-  - string, métodos de string, replace
+  - [Métodos da classe string](wiki/metodos_string.md)
   - char manip: asc2, char to int, isDigit, isVowel, toLower, toUpper, isLower, isUpper
   - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
   - stringstream e retornando textos

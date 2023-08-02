@@ -1,6 +1,16 @@
 # Manipulação de caracteres
 
 <!-- toc -->
+- [Introdução](#introdução)
+- [Convertendo caractere para inteiro e vice-versa](#convertendo-caractere-para-inteiro-e-vice-versa)
+- [Funções da biblioteca `<cctype>`](#funções-da-biblioteca-cctype)
+  - [isalpha() - Verifica se é uma letra](#isalpha---verifica-se-é-uma-letra)
+  - [isdigit() - Verifica se é um dígito](#isdigit---verifica-se-é-um-dígito)
+  - [isalnum() - Verifica se é uma letra ou um dígito](#isalnum---verifica-se-é-uma-letra-ou-um-dígito)
+  - [islower() - Verifica se é uma letra minúscula](#islower---verifica-se-é-uma-letra-minúscula)
+  - [isupper() - Verifica se é uma letra maiúscula](#isupper---verifica-se-é-uma-letra-maiúscula)
+  - [tolower() - Converte para minúscula](#tolower---converte-para-minúscula)
+  - [toupper() - Converte para maiúscula](#toupper---converte-para-maiúscula)
 <!-- toc -->
 
 ## Introdução

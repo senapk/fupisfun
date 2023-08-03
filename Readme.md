@@ -145,7 +145,7 @@
   - for indexado
 - Aula 17
   - cópia e referência
-  - for range, for auto&
+  - [ ] [For-each e loops com referência](wiki/for_each_e_loops.md)
 
 ## Bloco - Texto
 

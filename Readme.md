@@ -134,7 +134,7 @@
 ### Aula - Números Aleatórios
 
 - geração de números aleatórios com Mersenne Twister
-- argc e argv
+- [ ] [argc e argv](wiki/argc_argv.md)
 
 ## Bloco - Listas
 

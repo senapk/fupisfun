@@ -133,7 +133,7 @@
 
 ### Aula - Números Aleatórios
 
-- geração de números aleatórios com Mersenne Twister
+- [ ] [Mersenne Twister e números aleatórios](wiki/numeros_aleatorios.md)
 - [ ] [argc e argv](wiki/argc_argv.md)
 
 ## Bloco - Listas

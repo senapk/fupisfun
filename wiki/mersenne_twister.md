@@ -1,6 +1,8 @@
 # Mersenne Twister
 
 <!-- toc -->
+- [A Classe `std::random_device`](#a-classe-stdrandom_device)
+  - [Quando usar `std::random_device`](#quando-usar-stdrandom_device)
 <!-- toc -->
 
 A geração de números aleatórios usando o Mersenne Twister é uma técnica eficiente e amplamente utilizada para produzir sequências de números com propriedades estatísticas de alta qualidade. O Mersenne Twister é um algoritmo de geração de números pseudoaleatórios que tem um período muito longo e uma distribuição uniforme bem definida.

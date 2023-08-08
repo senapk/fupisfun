@@ -1,6 +1,9 @@
 # Os números aleatórios
 
 <!-- toc -->
+- [O que é um número aleatório?](#o-que-é-um-número-aleatório)
+- [Por que usar números aleatórios?](#por-que-usar-números-aleatórios)
+- [Números aleatórios vs pseudoaleatórios](#números-aleatórios-vs-pseudoaleatórios)
 <!-- toc -->
 
 ## O que é um número aleatório?

@@ -1,6 +1,7 @@
 # `rand()` e `srand()`
 
 <!-- toc -->
+- [Combinando `srand` com `ctime`](#combinando-srand-com-ctime)
 <!-- toc -->
 
 Em C++, você também pode usar as funções `rand()` e `srand()` para gerar números pseudoaleatórios simples, ideal para pequenos projetos pessoais ou para fins educacionais. `rand()` gera um número inteiro aleatório no intervalo [0, `RAND_MAX`], onde `RAND_MAX` é uma constante definida na biblioteca `<cstdlib>`. `srand()` define a semente para `rand()`. Aqui está um exemplo de como usar `rand()` e `srand()`:

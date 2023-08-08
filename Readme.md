@@ -154,8 +154,8 @@
   - [Manipulação de caracteres](wiki/manipulacao_caracteres.md)
   - [Métodos da classe string](wiki/metodos_string.md)
   - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
-  - stringstream e retornando textos
-  
+  - [ ] [Stringstream e Manipulação de Streams](wiki/stringstream.md)
+
 ## Bloco - Structs
 
 - Aula 18

@@ -55,6 +55,6 @@ int main() {
 }
 ```
 
-Usando o tempo como semente, você pode gerar números aleatórios diferentes toda vez que executar o programa, já que o tempo se utilia de segundos, contando desde o início do programa, no ano de 1970.
+Usando o tempo como semente, você pode gerar números aleatórios diferentes toda vez que executar o programa, já que o tempo se utiliza de segundos, contando desde o início do programa, no ano de 1970.
 
 Ou seja, se você executar o programa duas vezes no mesmo segundo, ele irá gerar os mesmos números aleatórios, porém ainda é uma boa forma de gerar números aleatórios para projetos pessoais ou educacionais.

@@ -133,7 +133,9 @@
 
 ### Aula - Números Aleatórios
 
-- [ ] [Mersenne Twister e números aleatórios](wiki/numeros_aleatorios.md)
+- [ ] [Números Aleatórios: Introdução](wiki/num_aleatorios_introducao.md)
+- [ ] [As funções `rand()` e `srand()`](wiki/rand_e_srand.md)
+- [ ] [Gerando números aleatórios com o Mersenne Twister](wiki/mersenne_twister.md)
 - [ ] [argc e argv](wiki/argc_argv.md)
 
 ## Bloco - Listas

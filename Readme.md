@@ -174,7 +174,7 @@
   - [ ] [Vector](wiki/vector.md)
   - for indexado
 - Aula 17
-  - cópia e referência
+  - [ ] [Cópia e Referência](wiki/copia_e_referencia.md)
   - [ ] [For-each e loops com referência](wiki/for_each_e_loops.md)
 
 ## Bloco - Texto

@@ -143,7 +143,7 @@
 - Aula 15
   - [ ] [Array simples](wiki/array_simples.md)
 - Aula 16
-  - vector
+  - [ ] [Vector](wiki/vector.md)
   - for indexado
 - Aula 17
   - cópia e referência

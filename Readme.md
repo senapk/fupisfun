@@ -189,7 +189,7 @@
 ## Bloco - Structs
 
 - Aula 18
-  - structs construtores com {}
+  - [ ] [structs construtores com {}](wiki/structs.md)
 - Aula 19
   - introdução aos iteradores e sintaxe de iteradores
   - vetores de structs

@@ -90,6 +90,16 @@
 - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
 - [x] [Técnica da seleção intervalada](wiki/selecao_tecnica_intervalos.md)
 - [x] [Operador ternário](wiki/operador_ternario.md)
+- [ ] Exercícios Resolvidos:
+ [@015 Calculadora Numérica](https://github.com/qxcodefup/arcade/blob/master/base/015/Readme.md),
+ [@155 Plantação de Morangos](https://github.com/qxcodefup/arcade/blob/master/base/155/Readme.md)
+- [ ] Exercícios Classe:
+ [@031 Fiquei de Final](https://github.com/qxcodefup/arcade/blob/master/base/031/Readme.md)
+- [ ] Exercícios Casa:
+ [@026 Positivo, Nulo ou Negativo?](https://github.com/qxcodefup/arcade/blob/master/base/026/Readme.md),
+ [@203 Cláusulas de Guarda](https://github.com/qxcodefup/arcade/blob/master/base/203/Readme.md),
+ [@040 Está Trabalhando ou Não?](https://github.com/qxcodefup/arcade/blob/master/base/040/Readme.md),
+ [@164 Triângulo de Varetas](https://github.com/qxcodefup/arcade/blob/master/base/164/Readme.md)
 
 ### Aula 07: Debugando
 
@@ -99,12 +109,30 @@
 
 - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
 - [x] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
+- [ ] Exercícios Classe:
+  [@021 Aumento de Salário](https://github.com/qxcodefup/arcade/blob/master/base/021/Readme.md),
+  [@023 Jokenpo das Tartarugas!](https://github.com/qxcodefup/arcade/blob/master/base/023/Readme.md)
+- [ ] Exercícios Casa:
+  [@014 Quantos são Iguais?](https://github.com/qxcodefup/arcade/blob/master/base/014/Readme.md),
+  [@183 Criança ou Múmia](https://github.com/qxcodefup/arcade/blob/master/base/183/Readme.md),
+  [@156 Jogo de Par ou Ímpar](https://github.com/qxcodefup/arcade/blob/master/base/156/Readme.md),
+  [@194 Nota Cortada](https://github.com/qxcodefup/arcade/blob/master/base/194/Readme.md)
 
 ### Aula 09: Técnicas de seleção II
 
 - [x] [Switch case](wiki/seleção_switch_case.md)
 - [x] [Operador de módulo](wiki/operador_modulo.md)
 - [x] [Exercícios de módulo](wiki/exercicios_modulo.md)
+- [ ] Exercícios Resolvidos:
+  [@022 Teleférico](https://github.com/qxcodefup/arcade/blob/master/base/022/Readme.md)
+- [ ] Exercícios Classe:
+  [@029 Quiz do Harry Potter](https://github.com/qxcodefup/arcade/blob/master/base/029/Readme.md),
+  [@062 Ângulo Cartesiano](https://github.com/qxcodefup/arcade/blob/master/base/062/Readme.md)
+- [ ] Exercícios Casa:
+  [@025 Ambos Divisíveis](https://github.com/qxcodefup/arcade/blob/master/base/025/Readme.md),
+  [@005 Ladrão de Goiabas](https://github.com/qxcodefup/arcade/blob/master/base/005/Readme.md),
+  [@028 Cabeça da Cobra](https://github.com/qxcodefup/arcade/blob/master/base/028/Readme.md),
+  [@034 Formiga da Bundona](https://github.com/qxcodefup/arcade/blob/master/base/034/Readme.md)
 
 ## Bloco - Funções
 

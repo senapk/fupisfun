@@ -94,9 +94,9 @@
  [@015 Calculadora Numérica](https://github.com/qxcodefup/arcade/blob/master/base/015/Readme.md),
  [@155 Plantação de Morangos](https://github.com/qxcodefup/arcade/blob/master/base/155/Readme.md)
 - [ ] Exercícios Classe:
+ [@026 Positivo, Nulo ou Negativo?](https://github.com/qxcodefup/arcade/blob/master/base/026/Readme.md),
  [@031 Fiquei de Final](https://github.com/qxcodefup/arcade/blob/master/base/031/Readme.md)
 - [ ] Exercícios Casa:
- [@026 Positivo, Nulo ou Negativo?](https://github.com/qxcodefup/arcade/blob/master/base/026/Readme.md),
  [@203 Cláusulas de Guarda](https://github.com/qxcodefup/arcade/blob/master/base/203/Readme.md),
  [@040 Está Trabalhando ou Não?](https://github.com/qxcodefup/arcade/blob/master/base/040/Readme.md),
  [@164 Triângulo de Varetas](https://github.com/qxcodefup/arcade/blob/master/base/164/Readme.md)
@@ -110,10 +110,10 @@
 - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
 - [x] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
 - [ ] Exercícios Classe:
-  [@021 Aumento de Salário](https://github.com/qxcodefup/arcade/blob/master/base/021/Readme.md),
-  [@023 Jokenpo das Tartarugas!](https://github.com/qxcodefup/arcade/blob/master/base/023/Readme.md)
-- [ ] Exercícios Casa:
   [@014 Quantos são Iguais?](https://github.com/qxcodefup/arcade/blob/master/base/014/Readme.md),
+  [@021 Aumento de Salário](https://github.com/qxcodefup/arcade/blob/master/base/021/Readme.md),
+- [ ] Exercícios Casa:
+  [@023 Jokenpo das Tartarugas!](https://github.com/qxcodefup/arcade/blob/master/base/023/Readme.md)
   [@183 Criança ou Múmia](https://github.com/qxcodefup/arcade/blob/master/base/183/Readme.md),
   [@156 Jogo de Par ou Ímpar](https://github.com/qxcodefup/arcade/blob/master/base/156/Readme.md),
   [@194 Nota Cortada](https://github.com/qxcodefup/arcade/blob/master/base/194/Readme.md)
@@ -126,11 +126,11 @@
 - [ ] Exercícios Resolvidos:
   [@022 Teleférico](https://github.com/qxcodefup/arcade/blob/master/base/022/Readme.md)
 - [ ] Exercícios Classe:
-  [@029 Quiz do Harry Potter](https://github.com/qxcodefup/arcade/blob/master/base/029/Readme.md),
-  [@062 Ângulo Cartesiano](https://github.com/qxcodefup/arcade/blob/master/base/062/Readme.md)
-- [ ] Exercícios Casa:
   [@025 Ambos Divisíveis](https://github.com/qxcodefup/arcade/blob/master/base/025/Readme.md),
   [@005 Ladrão de Goiabas](https://github.com/qxcodefup/arcade/blob/master/base/005/Readme.md),
+- [ ] Exercícios Casa:
+  [@029 Quiz do Harry Potter](https://github.com/qxcodefup/arcade/blob/master/base/029/Readme.md),
+  [@062 Ângulo Cartesiano](https://github.com/qxcodefup/arcade/blob/master/base/062/Readme.md)
   [@028 Cabeça da Cobra](https://github.com/qxcodefup/arcade/blob/master/base/028/Readme.md),
   [@034 Formiga da Bundona](https://github.com/qxcodefup/arcade/blob/master/base/034/Readme.md)
 
@@ -141,6 +141,9 @@
 - [ ] [Variáveis locais e globais](wiki/variaveis_locais_e_globais.md)
 - [ ] [Tratando Conflitos de Nomes com Namespaces](wiki/conflitos_e_namespaces.md)
 - [ ] [Funções: parâmetros e retornos](wiki/funcoes_parametros_e_retorno.md)
+- [ ] Exercícios Classe:
+  [@091 MMC](https://github.com/qxcodefup/arcade/blob/master/base/091/Readme.md),
+  [@072 Soldados PMG!](https://github.com/qxcodefup/arcade/blob/master/base/072/Readme.md)
 
 ### Aula 11 - Funções II
 
@@ -154,10 +157,25 @@
 ### Aula 12 - While
 
 - [x] [while(true), continue e break](wiki/while_break_continue.md)
+- [ ] Exercícios Classe:
+  [@045 Soma dos Pares](https://github.com/qxcodefup/arcade/blob/master/base/045/Readme.md)
+- [ ] Exercícios Casa:
+  [@013 Sapatos para 3](https://github.com/qxcodefup/arcade/blob/master/base/013/Readme.md),
+  [@053 Fuga em Helicóptero](https://github.com/qxcodefup/arcade/blob/master/base/053/Readme.md)
 
 ### Aula 13 - for
 
 - [ ] [Aula 13 - Uso do for](wiki/repeticao_for.md)
+- [ ] Exercícios Resolvidos:
+  [@046 Jogo da Concentração](https://github.com/qxcodefup/arcade/blob/master/base/046/Readme.md),
+  [@090 Primo](https://github.com/qxcodefup/arcade/blob/master/base/090/Readme.md)
+- [ ] Exercícios Classe:
+  [@047 Ônibus Lotado](https://github.com/qxcodefup/arcade/blob/master/base/047/Readme.md)
+- [ ] Exercícios Casa:
+  [@189 Fatores de um número](https://github.com/qxcodefup/arcade/blob/master/base/189/Readme.md),
+  [@049 Sapinho 1 no Poço](https://github.com/qxcodefup/arcade/blob/master/base/049/Readme.md),
+  [@059 Sapinho 2 Morrendo no Poço](https://github.com/qxcodefup/arcade/blob/master/base/059/Readme.md),
+  [@054 Quebrador de Copos](https://github.com/qxcodefup/arcade/blob/master/base/054/Readme.md)
 
 ### Aula - Números Aleatórios
 
@@ -169,22 +187,48 @@
 ## Bloco - Listas
 
 - Aula 15
-  - [ ] [Array simples](wiki/array_simples.md)
+- [ ] [Array simples](wiki/array_simples.md)
+- [ ] Exercícios Resolvidos:
+  [@060 Casamento](https://github.com/qxcodefup/arcade/blob/master/base/060/Readme.md)
+- [ ] Exercícios Classe:
+  [@055 Contagem](https://github.com/qxcodefup/arcade/blob/master/base/055/Readme.md),
+  [@056 Calça Apertada](https://github.com/qxcodefup/arcade/blob/master/base/056/Readme.md)
+- [ ] Exercícios Casa:
+  [@048 Cabo de Guerra Jedi](https://github.com/qxcodefup/arcade/blob/master/base/048/Readme.md),
+  [@051 Pedra na Lua](https://github.com/qxcodefup/arcade/blob/master/base/051/Readme.md),
+  [@058 Busca Intervalada](https://github.com/qxcodefup/arcade/blob/master/base/051/Readme.md),
+  [@100 Pião Perto da Linha](https://github.com/qxcodefup/arcade/blob/master/base/100/Readme.md)
 - Aula 16
-  - [ ] [Vector](wiki/vector.md)
-  - for indexado
+- [ ] [Vector](wiki/vector.md)
+- for indexado
+- [ ] Exercícios Casa:
+  [@068 Fila do RU](https://github.com/qxcodefup/arcade/blob/master/base/068/Readme.md),
+  [@061 Invertendo Vetor](https://github.com/qxcodefup/arcade/blob/master/base/061/Readme.md),
+  [@078 Jogo do Avesso](https://github.com/qxcodefup/arcade/blob/master/base/078/Readme.md),
+  [@088 Mediana](https://github.com/qxcodefup/arcade/blob/master/base/088/Readme.md)
 - Aula 17
-  - [ ] [Cópia e Referência](wiki/copia_e_referencia.md)
-  - [ ] [For-each e loops com referência](wiki/for_each_e_loops.md)
+- [ ] [Cópia e Referência](wiki/copia_e_referencia.md)
+- [ ] [For-each e loops com referência](wiki/for_each_e_loops.md)
 
 ## Bloco - Texto
 
 - Aula 14
-  - [Tabela ASC](wiki/tabela_asc2.md)
-  - [Manipulação de caracteres](wiki/manipulacao_caracteres.md)
-  - [Métodos da classe string](wiki/metodos_string.md)
-  - [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
-  - [ ] [Stringstream e Manipulação de Streams](wiki/stringstream.md)
+- [Tabela ASC](wiki/tabela_asc2.md)
+- [Manipulação de caracteres](wiki/manipulacao_caracteres.md)
+- [Métodos da classe string](wiki/metodos_string.md)
+- [ ] [Métodos `split()` e `join()`](wiki/metodos_split_e_join.md)
+- [ ] [Stringstream e Manipulação de Streams](wiki/stringstream.md)
+- [ ] Exercícios Classe:
+  [@173 Eribelton e a Ascologia V1](https://github.com/qxcodefup/arcade/blob/master/base/173/Readme.md),
+  [@104 Maiúsculo, Minusculo e Dígito!](https://github.com/qxcodefup/arcade/blob/master/base/104/Readme.md)
+- [ ] Exercícios Casa:
+  [@092 LP da Xuxa - Inverter String](https://github.com/qxcodefup/arcade/blob/master/base/092/Readme.md),
+  [@174 Valdiskey e a cifra V1!](https://github.com/qxcodefup/arcade/blob/master/base/174/Readme.md),
+  [@096 Contar Leds](https://github.com/qxcodefup/arcade/blob/master/base/096/Readme.md),
+  [@093 Gritando em Caixa Alta](https://github.com/qxcodefup/arcade/blob/master/base/093/Readme.md),
+  [@089 Mega Jokenpo!](https://github.com/qxcodefup/arcade/blob/master/base/089/Readme.md),
+  [@114 MeU WoRd QuEbRoU](https://github.com/qxcodefup/arcade/blob/master/base/114/Readme.md),
+  [@103 Separe Pneumatocito](https://github.com/qxcodefup/arcade/blob/master/base/103/Readme.md)
 
 ## Bloco - Structs
 

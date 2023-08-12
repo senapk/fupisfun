@@ -2,46 +2,55 @@
 
 <!-- toc -->
 - [Bloco - Introdução](#bloco---introdução)
-  - [Aula 01: O que são linguagens de programação?](#aula-01-o-que-são-linguagens-de-programação)
-  - [Aula 02: Configuração do ambiente](#aula-02-configuração-do-ambiente)
-  - [Aula 03: Primeiro código](#aula-03-primeiro-código)
-  - [Aula 04: Entendendo melhor os tipos](#aula-04-entendendo-melhor-os-tipos)
-  - [Aula 05: Operações Básicas](#aula-05-operações-básicas)
+  - [Aula 01 - O que são linguagens de programação?](#aula-01---o-que-são-linguagens-de-programação)
+  - [Aula 02 - Configuração do ambiente](#aula-02---configuração-do-ambiente)
+  - [Aula 03 - Primeiro código](#aula-03---primeiro-código)
+  - [Aula 04 - Entendendo melhor os tipos](#aula-04---entendendo-melhor-os-tipos)
+  - [Aula 05 - Operações Básicas](#aula-05---operações-básicas)
 - [Bloco - Seleção](#bloco---seleção)
-  - [Aula 06: Seleção Básica](#aula-06-seleção-básica)
-  - [Aula 07: Debugando](#aula-07-debugando)
-  - [Aula 08: Técnicas de seleção I](#aula-08-técnicas-de-seleção-i)
-  - [Aula 09: Técnicas de seleção II](#aula-09-técnicas-de-seleção-ii)
+  - [Aula 06 - Seleção Básica](#aula-06---seleção-básica)
+  - [Aula 07 - Debugando](#aula-07---debugando)
+  - [Aula 08 - Técnicas de seleção I](#aula-08---técnicas-de-seleção-i)
+  - [Aula 09 - Técnicas de seleção II](#aula-09---técnicas-de-seleção-ii)
 - [Bloco - Funções](#bloco---funções)
   - [Aula 10 - Funções I](#aula-10---funções-i)
   - [Aula 11 - Funções II](#aula-11---funções-ii)
 - [Bloco - Repetição](#bloco---repetição)
   - [Aula 12 - While](#aula-12---while)
   - [Aula 13 - for](#aula-13---for)
-  - [Aula - Números Aleatórios](#aula---números-aleatórios)
+  - [Aula 14 - Números Aleatórios](#aula-14---números-aleatórios)
 - [Bloco - Listas](#bloco---listas)
+  - [Aula 15](#aula-15)
+  - [Aula 16](#aula-16)
+  - [Aula 17](#aula-17)
 - [Bloco - Texto](#bloco---texto)
+  - [Aula 18](#aula-18)
 - [Bloco - Structs](#bloco---structs)
+  - [Aula 19](#aula-19)
+  - [Aula 20](#aula-20)
+  - [Aula 21](#aula-21)
 - [Bloco 07 - Texto](#bloco-07---texto)
+  - [Aula 22 matrizes](#aula-22-matrizes)
+  - [Aula 23 tecnicas em matrizes](#aula-23-tecnicas-em-matrizes)
 - [Bloco 08 - avançado](#bloco-08---avançado)
-  - [Aula - ponteiros](#aula---ponteiros)
-  - [Aula - enum](#aula---enum)
-  - [Aula - arquivos](#aula---arquivos)
-  - [Aula - funções lambda](#aula---funções-lambda)
-  - [Aula - templates](#aula---templates)
-  - [Aula - biblioteca algorithm find, sort, reverse, shuffle](#aula---biblioteca-algorithm-find-sort-reverse-shuffle)
+  - [Aula 24 - ponteiros](#aula-24---ponteiros)
+  - [Aula 25 - enum](#aula-25---enum)
+  - [Aula 26 - arquivos](#aula-26---arquivos)
+  - [Aula 27 - funções lambda](#aula-27---funções-lambda)
+  - [Aula 28 - templates](#aula-28---templates)
+  - [Aula 29 - biblioteca algorithm find, sort, reverse, shuffle](#aula-29---biblioteca-algorithm-find-sort-reverse-shuffle)
 <!-- toc -->
 
 - [Instruções aos Monitores](wiki/instrucoes_monitores.md)
 
 ## Bloco - Introdução
 
-### Aula 01: O que são linguagens de programação?
+### Aula 01 - O que são linguagens de programação?
 
 - [x] [O que são algoritmos?](wiki/o_que_sao_algoritmos.md)
 - [x] [Exemplos de códigos e linguagens](wiki/exemplos_de_codigos_e_linguagens.md)
 
-### Aula 02: Configuração do ambiente
+### Aula 02 - Configuração do ambiente
 
 - [x] [Ferramentas úteis](wiki/ferramentas_uteis.md) File Manager, Terminal, Text Editor
 - [x] [Instalação do C++ (Mingw)](wiki/configure_cpp.md)
@@ -49,7 +58,7 @@
 - [x] [IDE: Replit](wiki/configure_replit.md)
 - [x] [Uso do Bash e Instalação do Git Bash](wiki/configure_bash_and_git_bash.md)
 
-### Aula 03: Primeiro código
+### Aula 03 - Primeiro código
 
 - [x] [Primeiro código](wiki/primeiro_codigo.md)
 - [x] [Compilando e Executando](wiki/compilando.md)
@@ -57,7 +66,7 @@
 - [x] [Guia de estilo de escrita](wiki/guia_de_estilo.md)
 - [x] [Aprenda a indentar](wiki/indentacao.md)
 
-### Aula 04: Entendendo melhor os tipos
+### Aula 04 - Entendendo melhor os tipos
 
 - [x] [Tipos de dados primitivos](wiki/tipos_primitivos.md)
 - [ ] [O tipo string](wiki/tipo_string.md)
@@ -67,7 +76,7 @@
 - [x] [Operações aritméticas +, -, *, /](wiki/operacoes.md)
 - [x] [Não tenha medo de erros](wiki/erros_variaveis.md)
 
-### Aula 05: Operações Básicas
+### Aula 05 - Operações Básicas
 
 - [x] [math.h (pow, sqrt)](wiki/biblioteca_math.md)
 - [x] [Problema da divisão de dois inteiros](wiki/problema_divisao_inteiros.md)
@@ -84,7 +93,7 @@
 
 ## Bloco - Seleção
 
-### Aula 06: Seleção Básica
+### Aula 06 - Seleção Básica
 
 - [x] [Atribuição e incremento](wiki/atribuicao_incremento.md)
 - [x] [Estruturas de seleção](wiki/selecao_if_else.md)
@@ -101,11 +110,11 @@
  [@040 Está Trabalhando ou Não?](https://github.com/qxcodefup/arcade/blob/master/base/040/Readme.md),
  [@164 Triângulo de Varetas](https://github.com/qxcodefup/arcade/blob/master/base/164/Readme.md)
 
-### Aula 07: Debugando
+### Aula 07 - Debugando
 
 - [x] [Debugando o primeiro código](wiki/debugando.md)
 
-### Aula 08: Técnicas de seleção I
+### Aula 08 - Técnicas de seleção I
 
 - [x] [Operadores lógicos &&, ||, ==, ()](wiki/operadores_logicos.md)
 - [x] [Técnicas de if e else](wiki/selecao_tecnica_agrupamento.md)
@@ -118,7 +127,7 @@
   [@156 Jogo de Par ou Ímpar](https://github.com/qxcodefup/arcade/blob/master/base/156/Readme.md),
   [@194 Nota Cortada](https://github.com/qxcodefup/arcade/blob/master/base/194/Readme.md)
 
-### Aula 09: Técnicas de seleção II
+### Aula 09 - Técnicas de seleção II
 
 - [x] [Switch case](wiki/seleção_switch_case.md)
 - [x] [Operador de módulo](wiki/operador_modulo.md)
@@ -177,7 +186,7 @@
   [@059 Sapinho 2 Morrendo no Poço](https://github.com/qxcodefup/arcade/blob/master/base/059/Readme.md),
   [@054 Quebrador de Copos](https://github.com/qxcodefup/arcade/blob/master/base/054/Readme.md)
 
-### Aula - Números Aleatórios
+### Aula 14 - Números Aleatórios
 
 - [ ] [Números Aleatórios: Introdução](wiki/num_aleatorios_introducao.md)
 - [ ] [As funções `rand()` e `srand()`](wiki/rand_e_srand.md)
@@ -186,7 +195,8 @@
 
 ## Bloco - Listas
 
-- Aula 15
+### Aula 15
+
 - [ ] [Array simples](wiki/array_simples.md)
 - [ ] Exercícios Resolvidos:
   [@060 Casamento](https://github.com/qxcodefup/arcade/blob/master/base/060/Readme.md)
@@ -198,7 +208,9 @@
   [@051 Pedra na Lua](https://github.com/qxcodefup/arcade/blob/master/base/051/Readme.md),
   [@058 Busca Intervalada](https://github.com/qxcodefup/arcade/blob/master/base/051/Readme.md),
   [@100 Pião Perto da Linha](https://github.com/qxcodefup/arcade/blob/master/base/100/Readme.md)
-- Aula 16
+
+### Aula 16
+
 - [ ] [Vector](wiki/vector.md)
 - [ ] [For Indexado](wiki/for_indexado.md)
 - [ ] Exercícios Casa:
@@ -206,13 +218,16 @@
   [@061 Invertendo Vetor](https://github.com/qxcodefup/arcade/blob/master/base/061/Readme.md),
   [@078 Jogo do Avesso](https://github.com/qxcodefup/arcade/blob/master/base/078/Readme.md),
   [@088 Mediana](https://github.com/qxcodefup/arcade/blob/master/base/088/Readme.md)
-- Aula 17
+
+### Aula 17
+
 - [ ] [Cópia e Referência](wiki/copia_e_referencia.md)
 - [ ] [For-each e loops com referência](wiki/for_each_e_loops.md)
 
 ## Bloco - Texto
 
-- Aula 14
+### Aula 18
+
 - [Tabela ASC](wiki/tabela_asc2.md)
 - [Manipulação de caracteres](wiki/manipulacao_caracteres.md)
 - [Métodos da classe string](wiki/metodos_string.md)
@@ -232,30 +247,36 @@
 
 ## Bloco - Structs
 
-- Aula 18
-  - [ ] [structs construtores com {}](wiki/structs.md)
-- Aula 19
-  - introdução aos iteradores e sintaxe de iteradores
-  - vetores de structs
-- Aula 20
-  - tipos de passagem de parâmetros
-    - cópias, referências e referências constantes
+### Aula 19
+
+- [ ] [structs construtores com {}](wiki/structs.md)
+
+### Aula 20
+
+- introdução aos iteradores e sintaxe de iteradores
+- vetores de structs
+
+### Aula 21
+
+- tipos de passagem de parâmetros
+  - cópias, referências e referências constantes
 
 ## Bloco 07 - Texto
 
-- Aula: matrizes
-- Aula: tecnicas em matrizes
+### Aula 22 matrizes
+
+### Aula 23 tecnicas em matrizes
 
 ## Bloco 08 - avançado
 
-### Aula - ponteiros
+### Aula 24 - ponteiros
 
-### Aula - enum
+### Aula 25 - enum
 
-### Aula - arquivos
+### Aula 26 - arquivos
 
-### Aula - funções lambda
+### Aula 27 - funções lambda
 
-### Aula - templates
+### Aula 28 - templates
 
-### Aula - biblioteca algorithm find, sort, reverse, shuffle
+### Aula 29 - biblioteca algorithm find, sort, reverse, shuffle

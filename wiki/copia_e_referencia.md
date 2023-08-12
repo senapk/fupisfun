@@ -2,9 +2,9 @@
 
 <!-- toc -->
 - [Introdução](#introdução)
-- [Cópias](#Cópias)
-- [Referências ](#Referências )
-- [Considerações Finais](#Considerações-Finais)
+- [Cópias](#cópias)
+- [Referências](#referências)
+- [Considerações Finais](#considerações-finais)
 <!-- toc -->
 
 ## Introdução

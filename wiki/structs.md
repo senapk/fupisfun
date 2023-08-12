@@ -1,17 +1,17 @@
 # Structs
 
 <!-- toc -->
-- [Introdução](#introdução)
-- [Definindo Uma Struct](#definindo-uma-struct)
-- [Acessando Valores de uma Struct](#acessando-valores-de-uma-struct)
-- [Inicializando Structs utilizando Chaves](#inicializando-structs-utilizando-chaves)
+- [**Introdução**](#introdução)
+- [**Definindo Uma Struct**](#definindo-uma-struct)
+- [**Acessando Valores de uma Struct++**](#acessando-valores-de-uma-struct)
+- [**Inicializando Structs Utilizando Chaves**](#inicializando-structs-utilizando-chaves)
 - [Exemplos práticos](#exemplos-práticos)
-  - [Exemplo 1: Representando Pontos em 2D](#exemplo-1-representando-pontos-em-2d)
-    - [Definindo a struct Ponto2D](#definindo-a-struct-ponto2d)
-    - [Usando a struct Ponto2D para somar dois pontos](#usando-a-struct-ponto2d-para-somar-dois-pontos)
-  - [Exemplo 2: Modelando um Veículo](#exemplo-2-modelando-um-veículo)
-    - [Definindo a struct Veiculo](#definindo-a-struct-veiculo)
-    - [Imprimindo informações de vários veículos](#imprimindo-informações-de-vários-veículos)
+  - [**Exemplo 1: Representando Pontos em 2D**](#exemplo-1-representando-pontos-em-2d)
+    - [Definindo a `struct` **Ponto2D**](#definindo-a-struct-ponto2d)
+    - [Usando a `struct` Ponto2D Para Somar Dois Pontos](#usando-a-struct-ponto2d-para-somar-dois-pontos)
+  - [**Exemplo 2: Modelando um Veículo**](#exemplo-2-modelando-um-veículo)
+    - [Definindo a `struct` **Veiculo**](#definindo-a-struct-veiculo)
+    - [Imprimindo **informações** de Vários Veículos](#imprimindo-informações-de-vários-veículos)
 <!-- toc -->
 
 ## **Introdução**

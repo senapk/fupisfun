@@ -1,17 +1,16 @@
 # Estrutura de repetição for
 
 <!-- toc -->
-- [Estrutura de repetição for](#estrutura-de-repetição-for)
-  - [Introdução](#introdução)
-  - [Funcionamento genérico do loop `for`](#funcionamento-genérico-do-loop-for)
-  - [Exemplos de utilização do `for`](#exemplos-de-utilização-do-for)
-    - [Exemplo 1: Iteração Crescente](#exemplo-1-iteração-crescente)
-    - [Exemplo 2: Iteração Decrescente](#exemplo-2-iteração-decrescente)
-  - [Equivalência entre o `while` e o `for`](#equivalência-entre-o-while-e-o-for)
-    - [Exemplo de equivalência do `for` com `while`](#exemplo-de-equivalência-do-for-com-while)
-  - [Outras formas de usar o `for`](#outras-formas-de-usar-o-for)
-    - [Iterar uma string com `for`](#iterar-uma-string-com-for)
-    - [Iterar um array com `for`](#iterar-um-array-com-for)
+- [**Introdução:**](#introdução)
+- [**Funcionamento genérico do loop `for`:**](#funcionamento-genérico-do-loop-for)
+- [**Exemplos de utilização do `for`**](#exemplos-de-utilização-do-for)
+  - [**Exemplo 1**: Iteração Crescente](#exemplo-1-iteração-crescente)
+  - [**Exemplo 2**: Iteração Decrescente](#exemplo-2-iteração-decrescente)
+- [**Equivalência entre o `while` e o `for`:**](#equivalência-entre-o-while-e-o-for)
+  - [**Exemplo de equivalência do `for` com `while`:**](#exemplo-de-equivalência-do-for-com-while)
+- [**Outras formas de usar o `for`:**](#outras-formas-de-usar-o-for)
+  - [**Iterar uma string com `for`:**](#iterar-uma-string-com-for)
+  - [**Iterar um array com `for`:**](#iterar-um-array-com-for)
 <!-- toc -->
 
 ## **Introdução:**

@@ -43,7 +43,7 @@ Nesse exemplo, vamos percorrer um array de inteiros e imprimir cada elemento na 
 int main() {
     int array[] = {1, 2, 3, 4, 5};
 
-    for (int elemento : array) {
+    for(int elemento : array) {
         std::cout << elemento << ' ';
     } // 1 2 3 4 5
 
@@ -63,7 +63,7 @@ Nesse exemplo, vamos percorrer um vector de strings e imprimir cada elemento na 
 int main() {
     std::vector<std::string> nomes = {"João", "Maria", "José"};
 
-    for (std::string nome : nomes) {
+    for(std::string nome : nomes) {
         std::cout << nome << ' ';
     } // João Maria José
 
@@ -87,11 +87,11 @@ Nesse exemplo, vamos tentar multiplicar cada elemento de um array por 2, usando 
 int main() {
     int array[] = {1, 2, 3, 4, 5};
 
-    for (int elemento : array) {
+    for(int elemento : array) {
         elemento *= 2;
     }
 
-    for (int elemento : array) {
+    for(int elemento : array) {
         std::cout << elemento << ' ';
     } // 1 2 3 4 5
 
@@ -116,7 +116,7 @@ Como vimos, o laço for-each faz uma cópia do elemento atual, o que pode ser um
 Felizmente, podemos contornar esse problema usando referências. Para isso, basta declarar a variável que armazenará o elemento como uma referência, usando o operador `&`.
 
 ```cpp
-for (tipo_da_coleção& elemento : coleção)
+for(tipo_da_coleção& elemento : coleção)
     instrução;
 ```
 
@@ -132,11 +132,11 @@ Nesse exemplo, vamos multiplicar cada elemento de um array por 2, usando um laç
 int main() {
     int array[] = {1, 2, 3, 4, 5};
 
-    for (int& elemento : array) {
+    for(int& elemento : array) {
         elemento *= 2;
     }
 
-    for (int elemento : array) {
+    for(int elemento : array) {
         std::cout << elemento << ' ';
     } // 2 4 6 8 10
 
@@ -149,7 +149,7 @@ int main() {
 Até o momento, sempre declaramos a variável que armazenará o elemento como o tipo da coleção. No entanto, isso não é obrigatório, pois o compilador é capaz de deduzir o tipo da variável automaticamente, usando o operador `auto`. O tipo da variável será o mesmo do tipo do valor que está sendo atribuído a ela, ou seja, o tipo do elemento da coleção.
 
 ```cpp
-for (auto elemento : coleção)
+for(auto elemento : coleção)
     instrução;
 ```
 
@@ -161,7 +161,7 @@ Então, se quisermos, podemos usar o `auto` para simplificar a declaração da v
 int main() {
     int array[] = {1, 2, 3, 4, 5};
 
-    for (auto& elemento : array) {
+    for(auto& elemento : array) {
         std::cout << elemento << ' ';
     } // 1 2 3 4 5
 

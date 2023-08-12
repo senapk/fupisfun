@@ -200,7 +200,7 @@
   [@100 Pião Perto da Linha](https://github.com/qxcodefup/arcade/blob/master/base/100/Readme.md)
 - Aula 16
 - [ ] [Vector](wiki/vector.md)
-- for indexado
+- [ ] [For Indexado](wiki/for_indexado.md)
 - [ ] Exercícios Casa:
   [@068 Fila do RU](https://github.com/qxcodefup/arcade/blob/master/base/068/Readme.md),
   [@061 Invertendo Vetor](https://github.com/qxcodefup/arcade/blob/master/base/061/Readme.md),

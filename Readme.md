@@ -253,7 +253,7 @@
 
 ### Aula 20
 
-- introdução aos iteradores e sintaxe de iteradores
+- [ ] [Iteradores](wiki/iteradores.md)
 - vetores de structs
 
 ### Aula 21

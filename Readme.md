@@ -265,6 +265,8 @@
 
 ### Aula 22 matrizes
 
+- [ ] [O que são matrizes e para que usar?]()
+
 ### Aula 23 tecnicas em matrizes
 
 ## Bloco 08 - avançado

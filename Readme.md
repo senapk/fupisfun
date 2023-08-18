@@ -265,7 +265,8 @@
 
 ### Aula 22 matrizes
 
-- [ ] [O que são matrizes e para que usar?]()
+- [ ] [O que são matrizes e para que usar?](wiki/o_que_sao_matrizes.md)
+- [ ] [Noções básicas sobre matrizes: diagonais e outras propriedades](wiki/nocoes_basicas_de_matrizes.md)
 
 ### Aula 23 tecnicas em matrizes
 

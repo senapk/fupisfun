@@ -15,6 +15,10 @@
 
 Em C++, a entrada padrão (normalmente o teclado) pode ser lida utilizando-se o objeto `cin`, que faz parte da biblioteca padrão `iostream`. O `cin` é responsável pela leitura de dados inseridos pelo usuário durante a execução do programa.
 
+![2023-08-11--1691777958_411x410_scrot](https://github.com/senapk/poots/assets/4747652/966000d2-c261-49e2-b31a-17582d45dbb3)
+
+![2023-08-11--1691758071_924x454_scrot](https://github.com/senapk/poots/assets/4747652/6392c9cc-8e04-4e67-a7a3-cdaace081b19)
+
 ## Como funciona o `cin`
 
 Para lermos dados através do `cin` usamos o operador `>>`, chamado de operador de extração. Observe abaixo:

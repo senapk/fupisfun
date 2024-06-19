@@ -3,8 +3,8 @@
 <!-- toc -->
 - [Introdução](#introdução)
 - [Diagonais em Matrizes](#diagonais-em-matrizes)
-  - [Diagonal Principal]()
-  - [Diagonal Secundária]()
+  - [Diagonal Principal](#diagonal-principal)
+  - [Diagonal Secundária](#diagonal-secundária)
 - [Propriedades Adicionais](#propriedades-adicionais)
 - [Exemplo de Diagonais e Propriedades](#exemplo-de-diagonais-e-propriedades)
 <!-- toc -->
